@@ -1,0 +1,4430 @@
+
+(PCB 8DI
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+    (generated_by_freeroute)
+  )
+  (resolution um 10)
+  (structure
+    (boundary
+      (rect pcb 116994.0 -146531.0 194664.0 -42826.0)
+    )
+    (boundary
+      (polygon signal 0
+        117094.0 -146431.0
+        194564.0 -146431.0
+        194564.0 -42926.0
+        117094.0 -42926.0
+      )
+    )
+    (snap_angle 
+      fortyfive_degree
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (control
+      (via_at_smd off)
+    )
+    (rule
+      (width 360.0)
+      (clear 254.2)
+      (clear 0.0 (type smd_to_turn_gap))
+      (clear 508.2 (type default_"G_Grube"))
+      (clear 2540.2 (type default_pad))
+      (clear 63.6 (type smd_smd))
+      (clear 508.2 (type smd_"G_Grube"))
+      (clear 2540.2 (type smd_pad))
+      (clear 508.2 (type "kicad_default"_"G_Grube"))
+      (clear 2540.2 (type "kicad_default"_pad))
+      (clear 508.2 (type "G_Grube"_"G_Grube"))
+      (clear 508.2 (type "G_Grube"_Grube))
+      (clear 2540.2 (type "G_Grube"_pad))
+      (clear 2540.2 (type Grube_pad))
+      (clear 2540.2 (type pad_pad))
+    )
+    (layer Dolna
+      (type signal)
+    )
+    (autoroute_settings
+      (fanout off)
+      (autoroute on)
+      (postroute on)
+      (vias on)
+      (via_costs 50)
+      (plane_via_costs 5)
+      (start_ripup_costs 100)
+      (start_pass_no 629)
+      (layer_rule Dolna
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.3)
+      )
+    )
+  )
+  (placement
+    (component "DIP-28__300_ELL"
+      (place 
+        IC1 161036.0 -69342.0 front 90
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class Grube))
+        (pin 6 (clearance_class Grube))
+        (pin 7 (clearance_class Grube))
+        (pin 8 (clearance_class Grube))
+        (pin 9 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class Grube))
+        (pin 11 (clearance_class Grube))
+        (pin 12 (clearance_class Grube))
+        (pin 13 (clearance_class Grube))
+        (pin 14 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 15 (clearance_class "kicad_default"))
+        (pin 16 (clearance_class "kicad_default"))
+        (pin 17 (clearance_class "kicad_default"))
+        (pin 18 (clearance_class Grube))
+        (pin 19 (clearance_class Grube))
+        (pin 20 (clearance_class Grube))
+        (pin 21 (clearance_class Grube))
+        (pin 22 (clearance_class Grube))
+        (pin 23 (clearance_class Grube))
+        (pin 24 (clearance_class Grube))
+        (pin 25 (clearance_class Grube))
+        (pin 26 (clearance_class Grube))
+        (pin 27 (clearance_class Grube))
+        (pin 28 (clearance_class Grube))
+      )
+    )
+    (component "R-12"
+      (place 
+        D6 183388.0 -126492.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D5 185674.0 -63881.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D2 131572.0 -62230.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D4 182499.0 -58801.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D7 180086.0 -126492.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D8 176784.0 -126492.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D9 173482.0 -126492.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D10 128905.0 -126365.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D11 132080.0 -126365.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D12 138430.0 -126365.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D13 141605.0 -126365.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component "R-10"
+      (place 
+        R13 178816.0 -139192.0 front 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R12 178816.0 -141732.0 front 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R2 131572.0 -49530.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R3 162052.0 -102362.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R4 162052.0 -99314.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R5 162052.0 -96266.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R1 162052.0 -90170.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R11 178816.0 -144272.0 front 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R10 146050.0 -82550.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R9 146050.0 -85725.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R7 146050.0 -92710.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R8 146050.0 -88900.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R6 162052.0 -93218.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R14 178816.0 -136652.0 front 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+      (place 
+        R15 185674.0 -78867.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R16 182499.0 -73533.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        D1 132588.0 -66294.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R17 134112.0 -144272.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R18 133985.0 -141605.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R19 133985.0 -139065.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        R20 133985.0 -136525.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component bornier5
+      (place 
+        P2 192024.0 -125222.0 front 90
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class Grube))
+      )
+    )
+    (component bornier3
+      (place 
+        P1 119634.0 -69342.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+        (pin 3 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Osc_Moj"
+      (place 
+        X1 169418.0 -60960.0 front 90
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component "DIP-16__300_ELL"
+      (place 
+        U2 181610.0 -103505.0 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class Grube))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 6 (clearance_class Grube))
+        (pin 7 (clearance_class Grube))
+        (pin 8 (clearance_class Grube))
+        (pin 9 (clearance_class Grube))
+        (pin 10 (clearance_class "kicad_default"))
+        (pin 11 (clearance_class Grube))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class Grube))
+        (pin 14 (clearance_class "kicad_default"))
+        (pin 15 (clearance_class Grube))
+        (pin 16 (clearance_class "kicad_default"))
+      )
+      (place 
+        U3 130810.0 -100330.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+        (pin 3 (clearance_class Grube))
+        (pin 4 (clearance_class Grube))
+        (pin 5 (clearance_class Grube))
+        (pin 6 (clearance_class Grube))
+        (pin 7 (clearance_class Grube))
+        (pin 8 (clearance_class Grube))
+        (pin 9 (clearance_class Grube))
+        (pin 10 (clearance_class Grube))
+        (pin 11 (clearance_class Grube))
+        (pin 12 (clearance_class smd))
+        (pin 13 (clearance_class Grube))
+        (pin 14 (clearance_class Grube))
+        (pin 15 (clearance_class Grube))
+        (pin 16 (clearance_class Grube))
+      )
+    )
+    (component "C-2_5"
+      (place 
+        C6 146812.0 -60452.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C5 127000.0 -54864.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C4 121158.0 -54864.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C16 146812.0 -68072.0 front 180
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component "DIP-8__300_ELL"
+      (place 
+        IC2 172466.0 -79502.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class Grube))
+        (pin 6 (clearance_class Grube))
+        (pin 7 (clearance_class Grube))
+        (pin 8 (clearance_class Grube))
+      )
+    )
+    (component "C-5"
+      (place 
+        C3 178943.0 -70612.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C7 175006.0 -87376.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C8 153416.0 -68072.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C9 168402.0 -50292.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C10 159639.0 -108458.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C11 185293.0 -113284.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C12 168656.0 -70358.0 front 270
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C13 181356.0 -113284.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C14 176784.0 -113284.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C15 172974.0 -113284.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C17 141605.0 -112395.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C18 137160.0 -112395.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C19 130810.0 -112395.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+      (place 
+        C20 126365.0 -112395.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component 7805
+      (place 
+        U1 136906.0 -54610.0 front 0
+        (pin VI (clearance_class Grube))
+        (pin GND (clearance_class Grube))
+        (pin VO (clearance_class Grube))
+      )
+    )
+    (component bornier3::1
+      (place 
+        P3 192024.0 -64770.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class Grube))
+      )
+    )
+    (component "C1-1"
+      (place 
+        C2 173990.0 -55372.0 front 90
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+        (pin 2@1 (clearance_class Grube))
+      )
+      (place 
+        C1 173990.0 -66040.0 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class Grube))
+        (pin 2@1 (clearance_class Grube))
+      )
+    )
+    (component "LED-3MM"
+      (place 
+        D3 128651.0 -45720.0 front 0
+        (pin 1 (clearance_class Grube))
+        (pin 2 (clearance_class Grube))
+      )
+    )
+    (component bornier5::1
+      (place 
+        P8 120142.0 -125222.0 front 90
+        (pin 2 (clearance_class Grube))
+        (pin 3 (clearance_class Grube))
+        (pin 1 (clearance_class Grube))
+        (pin 4 (clearance_class Grube))
+        (pin 5 (clearance_class Grube))
+      )
+    )
+  )
+  (library
+    (image "DIP-28__300_ELL"
+      (side front)
+      (pin "Oval[A]Pad_1574.8x2286_um" 2 -13970.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 3 -11430.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 4 -8890.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 5 -6350.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 6 -3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 7 -1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 8 1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 9 3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 10 6350.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 11 8890.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 12 11430.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 13 13970.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 14 16510.0 -3810.0)
+      (pin "Rect[A]Pad_1574.8x2286_um" 1 -16510.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 15 16510.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 16 13970.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 17 11430.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 18 8890.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 19 6350.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 20 3810.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 21 1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 22 -1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 23 -3810.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 24 -6350.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 25 -8890.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 26 -11430.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 27 -13970.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 28 -16510.0 3810.0)
+      (outline
+        (polygon signal 0
+          -19128.9 2349.5
+          19128.9 2349.5
+          19240.5 2461.1
+          19240.5 2618.9
+          19128.9 2730.5
+          -19128.9 2730.5
+          -19240.5 2618.9
+          -19240.5 2461.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          18971.1 -2730.5
+          19128.9 -2730.5
+          19240.5 -2618.9
+          19240.5 2618.9
+          19128.9 2730.5
+          18971.1 2730.5
+          18859.5 2618.9
+          18859.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -19128.9 -2730.5
+          19128.9 -2730.5
+          19240.5 -2618.9
+          19240.5 -2461.1
+          19128.9 -2349.5
+          -19128.9 -2349.5
+          -19240.5 -2461.1
+          -19240.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -19128.9 -2730.5
+          -18971.1 -2730.5
+          -18859.5 -2618.9
+          -18859.5 2618.9
+          -18971.1 2730.5
+          -19128.9 2730.5
+          -19240.5 2618.9
+          -19240.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -19128.9 1079.5
+          -17701.1 1079.5
+          -17589.5 1191.1
+          -17589.5 1348.9
+          -17701.1 1460.5
+          -19128.9 1460.5
+          -19240.5 1348.9
+          -19240.5 1191.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -17858.9 -1460.5
+          -17701.1 -1460.5
+          -17589.5 -1348.9
+          -17589.5 1348.9
+          -17701.1 1460.5
+          -17858.9 1460.5
+          -17970.5 1348.9
+          -17970.5 -1348.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -19128.9 -1460.5
+          -17701.1 -1460.5
+          -17589.5 -1348.9
+          -17589.5 -1191.1
+          -17701.1 -1079.5
+          -19128.9 -1079.5
+          -19240.5 -1191.1
+          -19240.5 -1348.9
+        )
+      )
+    )
+    (image "R-12"
+      (side front)
+      (pin "Oval[A]Pad_2500x1500_um" 1 -6096.0 0.0)
+      (pin "Oval[A]Pad_2500x1500_um" 2 5969.0 0.0)
+      (outline
+        (polygon signal 0
+          -4857.1 -75.0
+          -4159.9 -75.0
+          -4116.0 -31.1
+          -4116.0 31.1
+          -4159.9 75.0
+          -4857.1 75.0
+          -4901.0 31.1
+          -4901.0 -31.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          4032.9 -75.0
+          4730.1 -75.0
+          4774.0 -31.1
+          4774.0 31.1
+          4730.1 75.0
+          4032.9 75.0
+          3989.0 31.1
+          3989.0 -31.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          2889.9 -1091.0
+          3587.1 -1091.0
+          3631.0 -1047.1
+          3631.0 -984.9
+          3587.1 -941.0
+          2889.9 -941.0
+          2846.0 -984.9
+          2846.0 -1047.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          2889.9 941.0
+          3587.1 941.0
+          3631.0 984.9
+          3631.0 1047.1
+          3587.1 1091.0
+          2889.9 1091.0
+          2846.0 1047.1
+          2846.0 984.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4222.1 -75.0
+          -3651.9 -75.0
+          -3608.0 -31.1
+          -3608.0 31.1
+          -3651.9 75.0
+          -4222.1 75.0
+          -4266.0 31.1
+          -4266.0 -31.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3524.9 -75.0
+          4095.1 -75.0
+          4139.0 -31.1
+          4139.0 31.1
+          4095.1 75.0
+          3524.9 75.0
+          3481.0 31.1
+          3481.0 -31.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3524.9 -75.0
+          3587.1 -75.0
+          3631.0 -31.1
+          3631.0 1047.1
+          3587.1 1091.0
+          3524.9 1091.0
+          3481.0 1047.1
+          3481.0 -31.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3714.1 941.0
+          2952.1 941.0
+          2996.0 984.9
+          2996.0 1047.1
+          2952.1 1091.0
+          -3714.1 1091.0
+          -3758.0 1047.1
+          -3758.0 984.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3714.1 -1091.0
+          -3651.9 -1091.0
+          -3608.0 -1047.1
+          -3608.0 1047.1
+          -3651.9 1091.0
+          -3714.1 1091.0
+          -3758.0 1047.1
+          -3758.0 -1047.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3714.1 -1091.0
+          2952.1 -1091.0
+          2996.0 -1047.1
+          2996.0 -984.9
+          2952.1 -941.0
+          -3714.1 -941.0
+          -3758.0 -984.9
+          -3758.0 -1047.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3524.9 -1091.0
+          3587.1 -1091.0
+          3631.0 -1047.1
+          3631.0 31.1
+          3587.1 75.0
+          3524.9 75.0
+          3481.0 31.1
+          3481.0 -1047.1
+        )
+      )
+    )
+    (image "R-10"
+      (side front)
+      (pin "Oval[A]Pad_2500x1500_um" 1 -5080.0 0.0)
+      (pin "Oval[A]Pad_2500x1500_um" 2 5080.0 0.0)
+      (outline
+        (polygon signal 0
+          -3852.1 -101.6
+          -3259.9 -101.6
+          -3200.4 -42.1
+          -3200.4 42.1
+          -3259.9 101.6
+          -3852.1 101.6
+          -3911.6 42.1
+          -3911.6 -42.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3259.9 -101.6
+          3852.1 -101.6
+          3911.6 -42.1
+          3911.6 42.1
+          3852.1 101.6
+          3259.9 101.6
+          3200.4 42.1
+          3200.4 -42.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3259.9 -101.6
+          3344.1 -101.6
+          3403.6 -42.1
+          3403.6 1058.1
+          3344.1 1117.6
+          3259.9 1117.6
+          3200.4 1058.1
+          3200.4 -42.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3344.1 914.4
+          3344.1 914.4
+          3403.6 973.9
+          3403.6 1058.1
+          3344.1 1117.6
+          -3344.1 1117.6
+          -3403.6 1058.1
+          -3403.6 973.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3344.1 -1117.6
+          -3259.9 -1117.6
+          -3200.4 -1058.1
+          -3200.4 1058.1
+          -3259.9 1117.6
+          -3344.1 1117.6
+          -3403.6 1058.1
+          -3403.6 -1058.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3344.1 -1117.6
+          3344.1 -1117.6
+          3403.6 -1058.1
+          3403.6 -973.9
+          3344.1 -914.4
+          -3344.1 -914.4
+          -3403.6 -973.9
+          -3403.6 -1058.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3259.9 -1117.6
+          3344.1 -1117.6
+          3403.6 -1058.1
+          3403.6 42.1
+          3344.1 101.6
+          3259.9 101.6
+          3200.4 42.1
+          3200.4 -1058.1
+        )
+      )
+    )
+    (image bornier5
+      (side front)
+      (pin "Round[A]Pad_2800_um" 2 -5080.0 0.0)
+      (pin "Round[A]Pad_2800_um" 3 0.0 0.0)
+      (pin "Rect[A]Pad_2800x2800_um" 1 -10160.0 0.0)
+      (pin "Round[A]Pad_2800_um" 4 5080.0 0.0)
+      (pin "Round[A]Pad_2800_um" 5 10160.0 0.0)
+      (outline
+        (polygon signal 0
+          -12763.1 -3962.4
+          12763.1 -3962.4
+          12852.4 -3873.1
+          12852.4 -3746.9
+          12763.1 -3657.6
+          -12763.1 -3657.6
+          -12852.4 -3746.9
+          -12852.4 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 -2692.4
+          12763.1 -2692.4
+          12852.4 -2603.1
+          12852.4 -2476.9
+          12763.1 -2387.6
+          -12763.1 -2387.6
+          -12852.4 -2476.9
+          -12852.4 -2603.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 3657.6
+          12763.1 3657.6
+          12852.4 3746.9
+          12852.4 3873.1
+          12763.1 3962.4
+          -12763.1 3962.4
+          -12852.4 3873.1
+          -12852.4 3746.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          12636.9 -3962.4
+          12763.1 -3962.4
+          12852.4 -3873.1
+          12852.4 3873.1
+          12763.1 3962.4
+          12636.9 3962.4
+          12547.6 3873.1
+          12547.6 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 -3962.4
+          -12636.9 -3962.4
+          -12547.6 -3873.1
+          -12547.6 3873.1
+          -12636.9 3962.4
+          -12763.1 3962.4
+          -12852.4 3873.1
+          -12852.4 -3873.1
+        )
+      )
+    )
+    (image bornier3
+      (side front)
+      (pin "Rect[A]Pad_2800x2800_um" 1 -5080.0 0.0)
+      (pin "Round[A]Pad_2800_um" 2 0.0 0.0)
+      (pin "Round[A]Pad_2800_um" 3 5080.0 0.0)
+      (outline
+        (polygon signal 0
+          -7683.1 -3962.4
+          -7556.9 -3962.4
+          -7467.6 -3873.1
+          -7467.6 3873.1
+          -7556.9 3962.4
+          -7683.1 3962.4
+          -7772.4 3873.1
+          -7772.4 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          7556.9 -3962.4
+          7683.1 -3962.4
+          7772.4 -3873.1
+          7772.4 3873.1
+          7683.1 3962.4
+          7556.9 3962.4
+          7467.6 3873.1
+          7467.6 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 -2692.4
+          7683.1 -2692.4
+          7772.4 -2603.1
+          7772.4 -2476.9
+          7683.1 -2387.6
+          -7683.1 -2387.6
+          -7772.4 -2476.9
+          -7772.4 -2603.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 3657.6
+          7683.1 3657.6
+          7772.4 3746.9
+          7772.4 3873.1
+          7683.1 3962.4
+          -7683.1 3962.4
+          -7772.4 3873.1
+          -7772.4 3746.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 -3962.4
+          7683.1 -3962.4
+          7772.4 -3873.1
+          7772.4 -3746.9
+          7683.1 -3657.6
+          -7683.1 -3657.6
+          -7772.4 -3746.9
+          -7772.4 -3873.1
+        )
+      )
+    )
+    (image "Osc_Moj"
+      (side front)
+      (pin "Round[A]Pad_2500_um" 1 -2540.0 0.0)
+      (pin "Round[A]Pad_2500_um" 2 3175.0 0.0)
+      (outline
+        (polygon signal 0
+          -2571.1 -3250.0
+          2571.1 -3250.0
+          2615.0 -3206.1
+          2615.0 -3143.9
+          2571.1 -3100.0
+          -2571.1 -3100.0
+          -2615.0 -3143.9
+          -2615.0 -3206.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2571.1 3100.0
+          2571.1 3100.0
+          2615.0 3143.9
+          2615.0 3206.1
+          2571.1 3250.0
+          -2571.1 3250.0
+          -2615.0 3206.1
+          -2615.0 3143.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2074.1 406.4
+          -1989.9 406.4
+          -1422.4 973.9
+          -1422.4 1058.1
+          -1481.9 1117.6
+          -1566.1 1117.6
+          -2133.6 550.1
+          -2133.6 465.9
+        )
+      )
+    )
+    (image "DIP-16__300_ELL"
+      (side front)
+      (pin "Rect[A]Pad_1574.8x2286_um" 1 -8890.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 2 -6350.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 3 -3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 4 -1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 5 1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 6 3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 7 6350.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 8 8890.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 9 8890.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 10 6350.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 11 3810.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 12 1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 13 -1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 14 -3810.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 15 -6350.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 16 -8890.0 3810.0)
+      (outline
+        (polygon signal 0
+          -11508.9 1079.5
+          -11351.1 1079.5
+          -11239.5 1191.1
+          -11239.5 1348.9
+          -11351.1 1460.5
+          -11508.9 1460.5
+          -11620.5 1348.9
+          -11620.5 1191.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -11508.9 1079.5
+          -10081.1 1079.5
+          -9969.5 1191.1
+          -9969.5 1348.9
+          -10081.1 1460.5
+          -11508.9 1460.5
+          -11620.5 1348.9
+          -11620.5 1191.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -10238.9 -1460.5
+          -10081.1 -1460.5
+          -9969.5 -1348.9
+          -9969.5 1348.9
+          -10081.1 1460.5
+          -10238.9 1460.5
+          -10350.5 1348.9
+          -10350.5 -1348.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -11508.9 -1460.5
+          -10081.1 -1460.5
+          -9969.5 -1348.9
+          -9969.5 -1191.1
+          -10081.1 -1079.5
+          -11508.9 -1079.5
+          -11620.5 -1191.1
+          -11620.5 -1348.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -11508.9 2349.5
+          11508.9 2349.5
+          11620.5 2461.1
+          11620.5 2618.9
+          11508.9 2730.5
+          -11508.9 2730.5
+          -11620.5 2618.9
+          -11620.5 2461.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          11351.1 -2730.5
+          11508.9 -2730.5
+          11620.5 -2618.9
+          11620.5 2618.9
+          11508.9 2730.5
+          11351.1 2730.5
+          11239.5 2618.9
+          11239.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -11508.9 -2730.5
+          11508.9 -2730.5
+          11620.5 -2618.9
+          11620.5 -2461.1
+          11508.9 -2349.5
+          -11508.9 -2349.5
+          -11620.5 -2461.1
+          -11620.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -11508.9 -2730.5
+          -11351.1 -2730.5
+          -11239.5 -2618.9
+          -11239.5 2618.9
+          -11351.1 2730.5
+          -11508.9 2730.5
+          -11620.5 2618.9
+          -11620.5 -2618.9
+        )
+      )
+    )
+    (image "C-2_5"
+      (side front)
+      (pin "Oval[A]Pad_1397x2500_um" 1 -1270.0 0.0)
+      (pin "Oval[A]Pad_1397x2500_um" 2 1270.0 0.0)
+      (outline
+        (polygon signal 0
+          -2552.3 1117.6
+          2603.1 1117.6
+          2692.4 1206.9
+          2692.4 1333.1
+          2603.1 1422.4
+          -2552.3 1422.4
+          -2641.6 1333.1
+          -2641.6 1206.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2476.9 -1422.4
+          2603.1 -1422.4
+          2692.4 -1333.1
+          2692.4 1333.1
+          2603.1 1422.4
+          2476.9 1422.4
+          2387.6 1333.1
+          2387.6 -1333.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2603.1 -1422.4
+          2603.1 -1422.4
+          2692.4 -1333.1
+          2692.4 -1206.9
+          2603.1 -1117.6
+          -2603.1 -1117.6
+          -2692.4 -1206.9
+          -2692.4 -1333.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2603.1 -1422.4
+          -2476.9 -1422.4
+          -2387.6 -1333.1
+          -2387.6 1333.1
+          -2476.9 1422.4
+          -2603.1 1422.4
+          -2692.4 1333.1
+          -2692.4 -1333.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2603.1 482.6
+          -2476.9 482.6
+          -1752.6 1206.9
+          -1752.6 1333.1
+          -1841.9 1422.4
+          -1968.1 1422.4
+          -2692.4 698.1
+          -2692.4 571.9
+        )
+      )
+    )
+    (image "DIP-8__300_ELL"
+      (side front)
+      (pin "Rect[A]Pad_1574.8x2286_um" 1 -3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 2 -1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 3 1270.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 4 3810.0 -3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 5 3810.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 6 1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 7 -1270.0 3810.0)
+      (pin "Oval[A]Pad_1574.8x2286_um" 8 -3810.0 3810.0)
+      (outline
+        (polygon signal 0
+          -5158.9 1079.5
+          -3731.1 1079.5
+          -3619.5 1191.1
+          -3619.5 1348.9
+          -3731.1 1460.5
+          -5158.9 1460.5
+          -5270.5 1348.9
+          -5270.5 1191.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3888.9 -1460.5
+          -3731.1 -1460.5
+          -3619.5 -1348.9
+          -3619.5 1348.9
+          -3731.1 1460.5
+          -3888.9 1460.5
+          -4000.5 1348.9
+          -4000.5 -1348.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5158.9 -1460.5
+          -3731.1 -1460.5
+          -3619.5 -1348.9
+          -3619.5 -1191.1
+          -3731.1 -1079.5
+          -5158.9 -1079.5
+          -5270.5 -1191.1
+          -5270.5 -1348.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5158.9 2349.5
+          5158.9 2349.5
+          5270.5 2461.1
+          5270.5 2618.9
+          5158.9 2730.5
+          -5158.9 2730.5
+          -5270.5 2618.9
+          -5270.5 2461.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          5001.1 -2730.5
+          5158.9 -2730.5
+          5270.5 -2618.9
+          5270.5 2618.9
+          5158.9 2730.5
+          5001.1 2730.5
+          4889.5 2618.9
+          4889.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5158.9 -2730.5
+          5158.9 -2730.5
+          5270.5 -2618.9
+          5270.5 -2461.1
+          5158.9 -2349.5
+          -5158.9 -2349.5
+          -5270.5 -2461.1
+          -5270.5 -2618.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5158.9 -2730.5
+          -5001.1 -2730.5
+          -4889.5 -2618.9
+          -4889.5 2618.9
+          -5001.1 2730.5
+          -5158.9 2730.5
+          -5270.5 2618.9
+          -5270.5 -2618.9
+        )
+      )
+    )
+    (image "C-5"
+      (side front)
+      (pin "Oval[A]Pad_1397x2500_um" 1 -2540.0 0.0)
+      (pin "Oval[A]Pad_1397x2500_um" 2 2540.0 0.0)
+      (outline
+        (polygon signal 0
+          -3619.1 863.6
+          3619.1 863.6
+          3708.4 952.9
+          3708.4 1079.1
+          3619.1 1168.4
+          -3619.1 1168.4
+          -3708.4 1079.1
+          -3708.4 952.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3492.9 -1168.4
+          3619.1 -1168.4
+          3708.4 -1079.1
+          3708.4 1079.1
+          3619.1 1168.4
+          3492.9 1168.4
+          3403.6 1079.1
+          3403.6 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 -1168.4
+          3619.1 -1168.4
+          3708.4 -1079.1
+          3708.4 -952.9
+          3619.1 -863.6
+          -3619.1 -863.6
+          -3708.4 -952.9
+          -3708.4 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 -1168.4
+          -3492.9 -1168.4
+          -3403.6 -1079.1
+          -3403.6 1079.1
+          -3492.9 1168.4
+          -3619.1 1168.4
+          -3708.4 1079.1
+          -3708.4 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 355.6
+          -3492.9 355.6
+          -2895.6 952.9
+          -2895.6 1079.1
+          -2984.9 1168.4
+          -3111.1 1168.4
+          -3708.4 571.1
+          -3708.4 444.9
+        )
+      )
+    )
+    (image 7805
+      (side front)
+      (pin "Rect[A]Pad_2001.52x2001.52_um" VI -2496.8 0.0)
+      (pin "Round[A]Pad_2001.52_um" GND 0.0 0.0)
+      (pin "Round[A]Pad_2001.52_um" VO 2501.9 0.0)
+      (outline
+        (polygon signal 0
+          -5359.0 1153.1
+          5364.1 1153.1
+          5453.4 1242.4
+          5453.4 1368.7
+          5364.1 1458.0
+          -5359.0 1458.0
+          -5448.3 1368.7
+          -5448.3 1242.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          5237.9 -2448.6
+          5364.1 -2448.6
+          5453.4 -2359.3
+          5453.4 2565.0
+          5364.1 2654.3
+          5237.8 2654.3
+          5148.5 2565.0
+          5148.5 -2359.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5359.0 2349.5
+          5364.1 2349.5
+          5453.4 2438.8
+          5453.4 2565.0
+          5364.1 2654.3
+          -5359.0 2654.3
+          -5448.3 2565.0
+          -5448.3 2438.8
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5359.0 -2448.6
+          -5232.8 -2448.6
+          -5143.5 -2359.3
+          -5143.5 2565.0
+          -5232.8 2654.3
+          -5359.0 2654.3
+          -5448.3 2565.0
+          -5448.3 -2359.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5359.0 -2448.6
+          5364.1 -2448.6
+          5453.4 -2359.3
+          5453.4 -2233.0
+          5364.1 -2143.7
+          -5359.0 -2143.7
+          -5448.3 -2233.0
+          -5448.3 -2359.3
+        )
+      )
+    )
+    (image bornier3::1
+      (side front)
+      (pin "Rect[A]Pad_2540x2540_um" 1 -5080.0 0.0)
+      (pin "Round[A]Pad_2540_um" 2 0.0 0.0)
+      (pin "Round[A]Pad_2540_um" 3 5080.0 0.0)
+      (outline
+        (polygon signal 0
+          -7683.1 -3962.4
+          -7556.9 -3962.4
+          -7467.6 -3873.1
+          -7467.6 3873.1
+          -7556.9 3962.4
+          -7683.1 3962.4
+          -7772.4 3873.1
+          -7772.4 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          7556.9 -3962.4
+          7683.1 -3962.4
+          7772.4 -3873.1
+          7772.4 3873.1
+          7683.1 3962.4
+          7556.9 3962.4
+          7467.6 3873.1
+          7467.6 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 -2692.4
+          7683.1 -2692.4
+          7772.4 -2603.1
+          7772.4 -2476.9
+          7683.1 -2387.6
+          -7683.1 -2387.6
+          -7772.4 -2476.9
+          -7772.4 -2603.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 3657.6
+          7683.1 3657.6
+          7772.4 3746.9
+          7772.4 3873.1
+          7683.1 3962.4
+          -7683.1 3962.4
+          -7772.4 3873.1
+          -7772.4 3746.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7683.1 -3962.4
+          7683.1 -3962.4
+          7772.4 -3873.1
+          7772.4 -3746.9
+          7683.1 -3657.6
+          -7683.1 -3657.6
+          -7772.4 -3746.9
+          -7772.4 -3873.1
+        )
+      )
+    )
+    (image "C1-1"
+      (side front)
+      (pin "Round[A]Pad_1397_um" 1 -2540.0 0.0)
+      (pin "Round[A]Pad_1397_um" 2 2540.0 0.0)
+      (pin "Round[A]Pad_1397_um" 2@1 0.0 0.0)
+      (outline
+        (polygon signal 0
+          -3619.1 863.6
+          3619.1 863.6
+          3708.4 952.9
+          3708.4 1079.1
+          3619.1 1168.4
+          -3619.1 1168.4
+          -3708.4 1079.1
+          -3708.4 952.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3492.9 -1168.4
+          3619.1 -1168.4
+          3708.4 -1079.1
+          3708.4 1079.1
+          3619.1 1168.4
+          3492.9 1168.4
+          3403.6 1079.1
+          3403.6 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 -1168.4
+          3619.1 -1168.4
+          3708.4 -1079.1
+          3708.4 -952.9
+          3619.1 -863.6
+          -3619.1 -863.6
+          -3708.4 -952.9
+          -3708.4 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 -1168.4
+          -3492.9 -1168.4
+          -3403.6 -1079.1
+          -3403.6 1079.1
+          -3492.9 1168.4
+          -3619.1 1168.4
+          -3708.4 1079.1
+          -3708.4 -1079.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3619.1 355.6
+          -3492.9 355.6
+          -2895.6 952.9
+          -2895.6 1079.1
+          -2984.9 1168.4
+          -3111.1 1168.4
+          -3708.4 571.1
+          -3708.4 444.9
+        )
+      )
+    )
+    (image "LED-3MM"
+      (side front)
+      (pin "Round[A]Pad_1676.4_um" 1 -1270.0 0.0)
+      (pin "Round[A]Pad_1676.4_um" 2 1270.0 0.0)
+      (outline
+        (polygon signal 0
+          1776.2 -1397.0
+          1881.4 -1397.0
+          1955.8 -1322.6
+          1955.8 1322.6
+          1881.4 1397.0
+          1776.2 1397.0
+          1701.8 1322.6
+          1701.8 -1322.6
+        )
+      )
+    )
+    (image bornier5::1
+      (side front)
+      (pin "Round[A]Pad_3810_um" 2 -5080.0 0.0)
+      (pin "Round[A]Pad_3810_um" 3 0.0 0.0)
+      (pin "Rect[A]Pad_3810x3810_um" 1 -10160.0 0.0)
+      (pin "Round[A]Pad_3810_um" 4 5080.0 0.0)
+      (pin "Round[A]Pad_3810_um" 5 10160.0 0.0)
+      (outline
+        (polygon signal 0
+          -12763.1 -3962.4
+          12763.1 -3962.4
+          12852.4 -3873.1
+          12852.4 -3746.9
+          12763.1 -3657.6
+          -12763.1 -3657.6
+          -12852.4 -3746.9
+          -12852.4 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 -2692.4
+          12763.1 -2692.4
+          12852.4 -2603.1
+          12852.4 -2476.9
+          12763.1 -2387.6
+          -12763.1 -2387.6
+          -12852.4 -2476.9
+          -12852.4 -2603.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 3657.6
+          12763.1 3657.6
+          12852.4 3746.9
+          12852.4 3873.1
+          12763.1 3962.4
+          -12763.1 3962.4
+          -12852.4 3873.1
+          -12852.4 3746.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          12636.9 -3962.4
+          12763.1 -3962.4
+          12852.4 -3873.1
+          12852.4 3873.1
+          12763.1 3962.4
+          12636.9 3962.4
+          12547.6 3873.1
+          12547.6 -3873.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12763.1 -3962.4
+          -12636.9 -3962.4
+          -12547.6 -3873.1
+          -12547.6 3873.1
+          -12636.9 3962.4
+          -12763.1 3962.4
+          -12852.4 3873.1
+          -12852.4 -3873.1
+        )
+      )
+    )
+    (padstack "Round[A]Pad_1397_um"
+      (shape
+        (circle Dolna 1397.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_1676.4_um"
+      (shape
+        (circle Dolna 1676.4 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_2001.52_um"
+      (shape
+        (circle Dolna 2001.6 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_2500_um"
+      (shape
+        (circle Dolna 2500.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_2540_um"
+      (shape
+        (circle Dolna 2540.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_2800_um"
+      (shape
+        (circle Dolna 2800.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_3810_um"
+      (shape
+        (circle Dolna 3810.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_1397x2500_um"
+      (shape
+        (polygon Dolna 0
+          -289.3 -1250.0
+          289.3 -1250.0
+          698.5 -840.8
+          698.5 840.8
+          289.3 1250.0
+          -289.3 1250.0
+          -698.5 840.8
+          -698.5 -840.8
+        )
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_2500x1500_um"
+      (shape
+        (polygon Dolna 0
+          -810.7 -750.0
+          810.7 -750.0
+          1250.0 -310.7
+          1250.0 310.7
+          810.7 750.0
+          -810.7 750.0
+          -1250.0 310.7
+          -1250.0 -310.7
+        )
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_1574.8x2286_um"
+      (shape
+        (polygon Dolna 0
+          -326.2 -1143.0
+          326.2 -1143.0
+          787.4 -681.8
+          787.4 681.8
+          326.2 1143.0
+          -326.2 1143.0
+          -787.4 681.8
+          -787.4 -681.8
+        )
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_2001.52x2001.52_um"
+      (shape
+        (rect Dolna -1000.8 -1000.8 1000.8 1000.8)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_2540x2540_um"
+      (shape
+        (rect Dolna -1270.0 -1270.0 1270.0 1270.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_2800x2800_um"
+      (shape
+        (rect Dolna -1400.0 -1400.0 1400.0 1400.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_3810x3810_um"
+      (shape
+        (rect Dolna -1905.0 -1905.0 1905.0 1905.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_1574.8x2286_um"
+      (shape
+        (rect Dolna -787.4 -1143.0 787.4 1143.0)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape
+        (circle Dolna 889.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape
+        (circle Dolna 889.0 0.0 0.0)
+      )
+      (attach off)
+    )
+  )
+  (network
+    (net GNDPWR 1
+      (pins
+        P8-5
+        C20-1
+        C19-1
+        C18-1
+        C17-1
+        C15-2
+        C14-2
+        C13-2
+        C11-1
+        U3-8
+        U3-6
+        U3-4
+        U3-2
+        U2-8
+        U2-6
+        U2-4
+        U2-2
+        P2-5
+        D13-1
+        D12-1
+        D11-1
+        D10-1
+        D9-1
+        D8-1
+        D7-1
+        D6-1
+      )
+    )
+    (net +5V 1
+      (pins
+        U1-VO
+        C12-1
+        C10-1
+        C9-1
+        C8-1
+        C7-1
+        C3-1
+        IC2-8
+        C16-1
+        C6-1
+        R6-1
+        R8-2
+        R7-2
+        R9-2
+        R10-2
+        R1-1
+        R5-1
+        R4-1
+        R3-1
+        IC1-21
+        IC1-20
+        IC1-7
+      )
+    )
+    (net A 1
+      (pins
+        IC2-6
+        R15-2
+      )
+    )
+    (net B 1
+      (pins
+        IC2-7
+        R16-2
+      )
+    )
+    (net DGND 1
+      (pins
+        D3-2
+        C1-2@1
+        C1-2
+        C2-2@1
+        C2-2
+        P3-3
+        U1-GND
+        C12-2
+        C10-2
+        C9-2
+        C8-2
+        C7-2
+        C3-2
+        IC2-5
+        C16-2
+        C4-2
+        C5-2
+        C6-2
+        U3-15
+        U3-13
+        U3-11
+        U3-9
+        U2-15
+        U2-13
+        U2-11
+        U2-9
+        P1-2
+        D4-1
+        D2-1
+        D5-1
+        IC1-28
+        IC1-27
+        IC1-22
+        IC1-19
+        IC1-18
+        IC1-13
+        IC1-12
+        IC1-11
+        IC1-8
+        IC1-6
+        IC1-5
+      )
+    )
+    (net GND 1
+      (pins
+        P1-3
+      )
+    )
+    (net "N-000001" 1
+      (pins
+        P2-2
+        R12-1
+      )
+    )
+    (net "N-000002" 1
+      (pins
+        P3-1
+        R15-1
+        D5-2
+      )
+    )
+    (net "N-000005" 1
+      (pins
+        IC2-3
+        IC2-2
+        IC1-4
+      )
+    )
+    (net "N-000006" 1
+      (pins
+        P1-1
+        D1-1
+      )
+    )
+    (net "N-000008" 1
+      (pins
+        D3-1
+        R2-2
+      )
+    )
+    (net "N-000009" 1
+      (pins
+        IC2-1
+        IC1-2
+      )
+    )
+    (net "N-000010" 1
+      (pins
+        IC2-4
+        IC1-3
+      )
+    )
+    (net "N-000011" 1
+      (pins
+        P2-3
+        R13-1
+      )
+    )
+    (net "N-000012" 1
+      (pins
+        P2-4
+        R14-1
+      )
+    )
+    (net "N-000013" 1
+      (pins
+        P2-1
+        R11-1
+      )
+    )
+    (net "N-000014" 1
+      (pins
+        P8-3
+        R19-2
+      )
+    )
+    (net "N-000015" 1
+      (pins
+        P8-4
+        R20-2
+      )
+    )
+    (net "N-000016" 1
+      (pins
+        C20-2
+        U3-1
+        R20-1
+        D13-2
+      )
+    )
+    (net "N-000017" 1
+      (pins
+        U3-14
+        R9-1
+        IC1-24
+      )
+    )
+    (net "N-000018" 1
+      (pins
+        R8-1
+        IC1-25
+      )
+    )
+    (net "N-000019" 1
+      (pins
+        P8-2
+        R18-2
+      )
+    )
+    (net "N-000020" 1
+      (pins
+        P8-1
+        R17-2
+      )
+    )
+    (net "N-000025" 1
+      (pins
+        C17-2
+        U3-7
+        R17-1
+        D10-2
+      )
+    )
+    (net "N-000026" 1
+      (pins
+        C18-2
+        U3-5
+        R18-1
+        D11-2
+      )
+    )
+    (net "N-000027" 1
+      (pins
+        C19-2
+        U3-3
+        R19-1
+        D12-2
+      )
+    )
+    (net "N-000028" 1
+      (pins
+        U3-10
+        R7-1
+        IC1-26
+      )
+    )
+    (net "N-000029" 1
+      (pins
+        C14-1
+        U2-3
+        R13-2
+        D8-2
+      )
+    )
+    (net "N-000030" 1
+      (pins
+        C15-1
+        U2-1
+        R14-2
+        D9-2
+      )
+    )
+    (net "N-000031" 1
+      (pins
+        C1-1
+        X1-1
+        IC1-9
+      )
+    )
+    (net "N-000032" 1
+      (pins
+        C2-1
+        X1-2
+        IC1-10
+      )
+    )
+    (net "N-000034" 1
+      (pins
+        C11-2
+        U2-7
+        R11-2
+        D6-2
+      )
+    )
+    (net "N-000035" 1
+      (pins
+        C13-1
+        U2-5
+        R12-2
+        D7-2
+      )
+    )
+    (net "N-000036" 1
+      (pins
+        U3-16
+        R10-1
+        IC1-23
+      )
+    )
+    (net "N-000037" 1
+      (pins
+        R1-2
+        IC1-1
+      )
+    )
+    (net "N-000038" 1
+      (pins
+        U2-14
+        R4-2
+        IC1-16
+      )
+    )
+    (net "N-000039" 1
+      (pins
+        U2-10
+        R6-2
+        IC1-14
+      )
+    )
+    (net "N-000040" 1
+      (pins
+        U2-12
+        R5-2
+        IC1-15
+      )
+    )
+    (net "N-000041" 1
+      (pins
+        U2-16
+        R3-2
+        IC1-17
+      )
+    )
+    (net "N-000042" 1
+      (pins
+        P3-2
+        R16-1
+        D4-2
+      )
+    )
+    (net VCC 1
+      (pins
+        U1-VI
+        C4-1
+        C5-1
+        D1-2
+        R2-1
+        D2-2
+      )
+    )
+    (via 
+      "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+    )
+    (via 
+      "Via[0-1]_889:0_um" "Via[0-1]_889:0_um" default
+    )
+    (via 
+      "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+    )
+    (via 
+      "Via[0-1]_889:0_um-kicad_default" "Via[0-1]_889:0_um" "kicad_default"
+    )
+    (via 
+      "Via[0-1]_889:635_um-G_Grube" "Via[0-1]_889:635_um" "G_Grube"
+    )
+    (via 
+      "Via[0-1]_889:0_um-G_Grube" "Via[0-1]_889:0_um" "G_Grube"
+    )
+    (via 
+      "Via[0-1]_889:635_um-Grube" "Via[0-1]_889:635_um" Grube
+    )
+    (via 
+      "Via[0-1]_889:0_um-Grube" "Via[0-1]_889:0_um" Grube
+    )
+    (via 
+      "Via[0-1]_889:635_um-pad" "Via[0-1]_889:635_um" pad
+    )
+    (via 
+      "Via[0-1]_889:0_um-pad" "Via[0-1]_889:0_um" pad
+    )
+    (via_rule
+      default "Via[0-1]_889:635_um"
+    )
+    (via_rule
+      "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+    )
+    (via_rule
+      "G_Grube" "Via[0-1]_889:635_um-G_Grube"
+    )
+    (via_rule
+      Grube "Via[0-1]_889:635_um-Grube"
+    )
+    (via_rule
+      pad "Via[0-1]_889:635_um-pad"
+    )
+    (class default
+      (clearance_class default)
+      (via_rule default)
+      (rule
+        (width 360.0)
+      )
+      (circuit 
+        (use_layer Dolna)
+      )
+    )
+    (class "kicad_default"
+      GND "N-000001" "N-000005" "N-000009" "N-000010" "N-000011" "N-000012" "N-000013"
+      "N-000029" "N-000030" "N-000031" "N-000035" "N-000037" "N-000038" "N-000039" "N-000040"
+      "N-000041" "N-000042"
+      (clearance_class "kicad_default")
+      (via_rule kicad_default)
+      (rule
+        (width 360.0)
+      )
+      (circuit 
+        (use_layer Dolna)
+      )
+    )
+    (class "G_Grube"
+      (clearance_class "G_Grube")
+      (via_rule G_Grube)
+      (rule
+        (width 2540.0)
+      )
+      (circuit 
+        (use_layer Dolna)
+      )
+    )
+    (class Grube
+      GNDPWR +5V A B DGND "N-000002" "N-000006" "N-000008"
+      "N-000014" "N-000015" "N-000016" "N-000017" "N-000018" "N-000019" "N-000020" "N-000025"
+      "N-000026" "N-000027" "N-000028" "N-000032" "N-000034" "N-000036" VCC
+      (clearance_class Grube)
+      (via_rule Grube)
+      (rule
+        (width 508.0)
+      )
+      (circuit 
+        (use_layer Dolna)
+      )
+    )
+    (class pad
+      (clearance_class pad)
+      (via_rule pad)
+      (rule
+        (width 254.0)
+      )
+      (circuit 
+        (use_layer Dolna)
+      )
+    )
+  )
+  (wiring
+    (wire
+      (polyline_path Dolna 508.0
+        139065.0 -136525.0 139065.0 -134874.0 
+        139065.0 -134874.0 141605.0 -132334.0 
+        141605.0 -132334.0 141605.1 -132334.1 
+      )
+      (net "N-000016" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139065.0 -136525.0 139064.9 -136525.0 
+        139065.0 -136525.0 139065.0 -134874.0 
+        139065.0 -134874.0 139064.9 -134874.0 
+      )
+      (net "N-000016" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139065.0 -136525.0 139065.0 -134874.0 
+        139065.0 -134874.0 139064.9 -134874.0 
+        139477.8 -135699.5 139477.7 -135699.4 
+        133452.9 -130087.4 133452.9 -115295.7 
+        133452.9 -115295.7 128012.2 -109855.0 
+        128012.2 -109855.0 126365.0 -109855.0 
+        126365.0 -109855.0 126365.0 -109854.9 
+      )
+      (net "N-000016" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        140196.4 -130567.6 140196.3 -130567.7 
+        140196.4 -130567.6 134560.6 -124931.8 
+        134560.6 -124931.8 134560.6 -113605.6 
+        134560.6 -113605.6 130810.0 -109855.0 
+        130810.0 -109855.0 130810.1 -109854.9 
+      )
+      (net "N-000027" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        121920.0 -104140.0 121920.1 -104140.0 
+        121920.0 -104140.0 121920.0 -105410.0 
+        121920.0 -105410.0 126365.0 -109855.0 
+        126365.0 -109855.0 126364.9 -109855.1 
+      )
+      (net "N-000016" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        129540.0 -104140.0 129539.9 -104140.1 
+        129540.0 -104140.0 129539.9 -104139.9 
+        124460.0 -102440.0 124459.9 -102440.0 
+        124460.0 -104030.8 124459.9 -104030.9 
+        124460.0 -104030.8 124459.9 -104030.8 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        124460.0 -104140.0 124460.0 -104030.8 
+        124460.0 -104030.8 122917.8 -102488.6 
+        122917.8 -102488.6 120900.4 -102488.6 
+        120900.4 -102488.6 119637.0 -103752.0 
+        120584.7 -111225.9 120584.7 -111226.0 
+        120269.0 -114935.0 128045.5 -114935.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        124460.0 -104140.0 124459.9 -104140.0 
+        124460.0 -104140.0 124460.0 -104030.8 
+        124460.0 -104030.8 122917.8 -102488.6 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        136275.6 -102484.4 134620.0 -104140.0 
+        134620.0 -104140.0 134619.9 -104139.9 
+        129540.0 -102486.3 129539.9 -102486.3 
+        129540.0 -104140.0 129539.9 -104140.1 
+        129540.0 -104140.0 129539.9 -104140.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        120584.7 -111225.9 120584.7 -111226.0 
+        128045.5 -114935.0 120269.0 -114935.0 
+        120269.0 -114935.0 120142.0 -115062.0 
+        120142.0 -115062.0 120141.9 -115061.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        126365.0 -114935.0 126364.9 -114934.9 
+        128045.5 -114935.0 120269.0 -114935.0 
+        120584.7 -111225.9 120584.7 -111226.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        130810.1 -114935.1 130810.0 -114935.0 
+        128045.5 -114935.0 120269.0 -114935.0 
+        126365.0 -114935.0 126364.9 -114934.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137160.0 -96520.0 137159.9 -96519.9 
+        138811.4 -94868.6 140970.0 -92710.0 
+        140970.0 -92710.0 140970.1 -92710.1 
+      )
+      (net "N-000028" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        136638.2 -102473.7 134969.6 -104142.3 
+        134969.6 -104142.3 134969.6 -104489.6 
+        134620.0 -104140.0 139382.5 -108902.5 
+        138965.8 -114934.9 138965.8 -114935.0 
+        137159.9 -114935.0 137160.0 -114935.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139700.0 -104140.0 139699.9 -104140.1 
+        139700.0 -104140.0 138033.7 -102473.7 
+        138033.7 -102473.7 136638.2 -102473.7 
+        136638.2 -102473.7 134969.6 -104142.3 
+        134969.6 -104142.3 134969.5 -104142.3 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134969.6 -104489.6 134969.6 -104142.3 
+        134969.6 -104142.3 134969.5 -104142.3 
+        139382.5 -108902.5 134620.0 -104140.0 
+        134620.0 -104140.0 134620.1 -104139.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        167246.5 -116063.3 167246.5 -116063.4 
+        167246.5 -116063.3 151623.3 -116063.3 
+        142144.7 -106584.7 139254.4 -103694.4 
+        139700.0 -104140.0 139700.1 -104139.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        143985.7 -138990.0 143985.6 -138990.1 
+        139322.2 -144141.8 128905.0 -133724.6 
+        128905.0 -133350.0 128905.0 -132334.0 
+        128905.0 -132334.0 128905.1 -132334.0 
+      )
+      (net "N-000025" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139191.9 -144271.9 139192.0 -144272.0 
+        139192.0 -144272.0 139192.0 -144271.9 
+        139322.2 -144141.8 128905.0 -133724.6 
+        143985.7 -138990.0 143985.6 -138990.1 
+      )
+      (net "N-000025" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        141605.0 -109855.0 141605.1 -109854.9 
+        141605.0 -109855.0 144474.0 -112724.0 
+        144474.0 -112724.0 144474.0 -138990.0 
+        143985.7 -138990.0 143985.6 -138990.1 
+        139322.2 -144141.8 128905.0 -133724.6 
+      )
+      (net "N-000025" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137160.0 -104140.0 137160.1 -104140.0 
+        137160.0 -104140.0 137160.0 -105414.0 
+        141605.0 -109855.0 141605.1 -109855.1 
+        141605.0 -109855.0 141605.0 -109855.1 
+      )
+      (net "N-000025" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        140133.8 -140323.4 140133.7 -140323.5 
+        139195.2 -141474.8 139195.1 -141474.7 
+        132080.0 -135875.4 132080.0 -132334.0 
+        132080.0 -132334.0 132080.1 -132334.0 
+      )
+      (net "N-000026" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139064.9 -141604.9 139065.0 -141605.0 
+        139065.0 -141605.0 140346.6 -140323.4 
+        139088.8 -141368.4 139088.8 -141368.3 
+        140133.8 -140323.4 140133.7 -140323.5 
+      )
+      (net "N-000026" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        135401.8 -109855.0 135401.9 -109855.1 
+        135401.8 -109855.0 135401.6 -109855.2 
+        135401.6 -109855.2 135401.6 -119591.9 
+        135401.6 -119591.9 143701.1 -127891.4 
+        143701.1 -127891.4 143701.1 -137820.7 
+        140133.8 -140323.4 140133.7 -140323.5 
+        139195.2 -141474.8 139195.1 -141474.7 
+      )
+      (net "N-000026" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137160.0 -109855.0 137159.9 -109855.0 
+        135401.8 -109855.0 135401.7 -109854.9 
+        132080.0 -106545.3 132080.0 -104140.0 
+        132080.0 -104140.0 132080.1 -104140.0 
+      )
+      (net "N-000026" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137160.0 -109855.0 137159.9 -109855.1 
+        137160.0 -109855.0 137159.9 -109855.0 
+        135401.8 -109855.0 135401.8 -109855.1 
+      )
+      (net "N-000026" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        138965.8 -114935.0 138965.8 -114934.9 
+        137160.0 -114935.0 137159.9 -114935.0 
+        137160.0 -114935.0 137159.9 -114934.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        141605.0 -114934.9 141605.0 -114935.0 
+        137160.0 -114935.0 137159.9 -114935.0 
+        138965.8 -114935.0 138965.8 -114934.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        192024.0 -130302.0 192024.1 -130302.1 
+        192024.0 -130302.0 188937.8 -133388.2 
+        188937.8 -133388.2 188937.8 -137569.0 
+        185251.6 -140376.4 183896.0 -141732.0 
+        183896.0 -141732.0 183895.9 -141731.9 
+      )
+      (net "N-000001" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        138430.0 -132334.0 140196.4 -130567.6 
+        140196.4 -130567.6 142152.1 -130567.6 
+        142152.1 -130567.6 142922.0 -131337.5 
+        142922.0 -131337.5 142922.0 -135208.0 
+        142922.0 -135208.0 139065.0 -139065.0 
+        139065.0 -139065.0 139064.9 -139064.9 
+      )
+      (net "N-000027" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        138430.0 -132334.0 138429.9 -132333.9 
+        138430.0 -132334.0 140196.4 -130567.6 
+        140196.4 -130084.8 140196.4 -130567.6 
+      )
+      (net "N-000027" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        127000.0 -104140.0 127000.1 -104139.9 
+        127000.0 -104140.0 130810.0 -107950.0 
+        130810.0 -108902.5 130810.0 -109899.0 
+        130810.0 -109855.0 130809.9 -109855.0 
+      )
+      (net "N-000027" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        163131.5 -107505.5 163131.4 -107505.6 
+        163131.5 -107505.5 159808.6 -104182.6 
+        159808.6 -104182.6 159808.6 -88434.6 
+        159808.6 -88434.6 157226.0 -85852.0 
+        157226.0 -85852.0 157226.1 -85851.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        163131.5 -107505.5 163131.5 -103495.3 
+        166243.0 -104394.0 162179.0 -108458.0 
+        162179.0 -108458.0 162178.9 -108457.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        175260.0 -99814.2 175260.1 -99814.2 
+        175260.0 -99814.2 175260.0 -100076.0 
+        175260.0 -100076.0 173926.0 -101600.0 
+        173926.0 -101600.0 170752.0 -101600.0 
+        170752.0 -101600.0 167767.0 -104394.0 
+        167767.0 -104394.0 166243.0 -104394.0 
+        166243.0 -104394.0 162179.0 -108458.0 
+        163131.5 -107505.5 163131.5 -103495.3 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185801.0 -57912.0 185800.9 -57912.1 
+        185801.0 -57912.0 185674.0 -57785.0 
+        185674.0 -57785.0 185674.1 -57784.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185801.0 -57912.0 185801.0 -57911.9 
+        185674.0 -57912.0 190246.0 -57912.0 
+        190246.0 -57912.0 192024.0 -59690.0 
+        192024.0 -59690.0 192023.9 -59690.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        182499.0 -52705.0 182499.1 -52704.9 
+        182499.0 -52705.0 182626.0 -52832.0 
+        182626.0 -52832.0 182626.0 -54864.0 
+        182626.0 -54864.0 185674.0 -57912.0 
+        185674.0 -57912.0 190246.0 -57912.0 
+        185801.0 -57912.0 185801.0 -57911.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139700.0 -96520.0 139699.9 -96520.0 
+        139700.0 -96520.0 139699.9 -96520.1 
+        136245.5 -98175.6 136245.4 -98175.6 
+        134620.0 -96520.0 134619.9 -96519.9 
+        134620.0 -96520.0 134620.1 -96520.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -84057.6 157225.9 -84057.7 
+        157226.0 -84057.6 154438.4 -81270.0 
+        154438.4 -81270.0 150130.6 -81270.0 
+        150130.6 -81270.0 149371.6 -82029.0 
+        149371.6 -82029.0 149371.6 -88314.9 
+        139700.0 -96520.0 139699.9 -96520.1 
+        139700.0 -96520.0 139699.9 -96519.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -80772.0 157225.9 -80772.1 
+        157226.0 -80772.0 156940.1 -80486.1 
+        156940.1 -80486.1 149836.4 -80486.1 
+        146829.8 -83492.7 146829.7 -83492.8 
+        146718.1 -86961.8 146718.1 -86961.9 
+        146718.2 -86961.8 140970.0 -92710.0 
+        140970.0 -92710.0 140969.9 -92709.9 
+      )
+      (net "N-000028" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -78232.0 157226.0 -78232.1 
+        157226.0 -78232.0 150900.8 -78232.0 
+        150992.9 -78232.0 150992.8 -78232.1 
+        140970.0 -88162.8 140970.0 -88900.0 
+        140970.0 -88900.0 140969.9 -88900.0 
+      )
+      (net "N-000018" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -84057.6 157226.1 -84057.6 
+        157226.0 -85852.0 157226.0 -83312.0 
+        157226.0 -83312.0 157226.1 -83312.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -85852.0 157225.9 -85852.0 
+        157226.0 -85852.0 157226.0 -83312.0 
+        157226.0 -84057.6 157226.1 -84057.6 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        151130.0 -84826.7 151130.0 -87312.5 
+        151130.0 -88900.0 151130.1 -88900.1 
+        152146.0 -88849.2 152146.0 -91694.0 
+        152146.0 -91694.0 152145.9 -91694.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        151130.1 -88900.0 151130.0 -88900.0 
+        151130.0 -87312.5 151130.0 -84826.7 
+        151130.0 -85725.0 151130.1 -85724.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        155574.6 -91694.0 152146.0 -91694.0 
+        152146.0 -91694.0 151130.0 -92710.0 
+        151130.0 -92710.0 151129.9 -92709.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -91694.0 156972.0 -91694.1 
+        155574.6 -91694.0 152146.0 -91694.0 
+        152146.0 -88849.2 152146.0 -91694.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -91694.0 155955.9 -91694.0 
+        156972.0 -90170.0 156972.0 -93218.0 
+        156972.0 -93218.0 156971.9 -93218.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -90170.0 156972.1 -90170.0 
+        156972.0 -90170.0 156972.0 -93218.0 
+        156972.0 -91694.0 155955.9 -91694.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        128905.0 -141605.0 128904.9 -141605.1 
+        128905.0 -141605.0 124562.1 -137262.1 
+        124785.4 -137038.8 124785.4 -133867.4 
+        120142.0 -130302.0 120141.9 -130301.9 
+        120142.0 -130302.0 120142.0 -130301.9 
+      )
+      (net "N-000019" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        120142.0 -135382.0 120142.1 -135381.9 
+        128654.5 -143894.5 129032.0 -144272.0 
+        129032.0 -144272.0 129031.9 -144272.1 
+      )
+      (net "N-000020" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134620.0 -96520.0 134619.9 -96519.9 
+        134620.0 -96520.0 134619.9 -96520.1 
+        135894.8 -98171.4 131191.4 -98171.4 
+        130428.8 -97408.8 129540.0 -96520.0 
+        129540.0 -96520.0 129540.1 -96519.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        121920.0 -96520.0 121919.9 -96519.9 
+        121920.0 -96520.0 135890.0 -82550.0 
+        135890.0 -82550.0 140970.0 -82550.0 
+        140970.0 -82550.0 140970.0 -82550.1 
+      )
+      (net "N-000036" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        123571.2 -97408.8 124460.0 -96520.0 
+        124460.0 -96520.0 124460.1 -96520.1 
+        123190.0 -98171.4 127888.6 -98171.4 
+        128905.0 -97155.0 129985.6 -96074.4 
+        129540.0 -96520.0 129540.1 -96520.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        132080.0 -120269.0 130810.0 -118999.0 
+        130810.0 -118999.0 130810.0 -114935.0 
+        130810.0 -114935.0 130810.1 -114935.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        132080.0 -120269.0 132079.9 -120269.1 
+        132080.0 -120269.0 130810.0 -118999.0 
+        129540.0 -120269.0 130810.0 -118999.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        128905.0 -120269.0 128905.0 -120268.9 
+        128905.0 -120269.0 129540.0 -120269.0 
+        129540.0 -120269.0 130810.0 -118999.0 
+        130810.0 -118999.0 130810.1 -118999.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        119126.0 -69342.0 119126.0 -69341.9 
+        119126.0 -69342.0 128651.0 -69342.0 
+        119634.0 -69342.0 119634.0 -69341.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        128905.0 -139065.0 128904.9 -139065.1 
+        128905.0 -139065.0 125687.1 -135847.1 
+        125687.1 -135847.1 125687.1 -130767.1 
+        125687.1 -130767.1 120142.0 -125222.0 
+        120142.0 -125222.0 120142.1 -125221.9 
+      )
+      (net "N-000014" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        128905.0 -136525.0 128904.9 -136525.1 
+        128905.0 -136525.0 126472.4 -134092.4 
+        126472.4 -134092.4 126472.4 -126472.4 
+        126472.4 -126472.4 120142.0 -120142.0 
+        120142.0 -120142.0 120142.1 -120141.9 
+      )
+      (net "N-000015" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -75692.0 157226.0 -75692.1 
+        157226.0 -75692.0 151003.0 -75692.0 
+        142886.6 -83808.4 140970.0 -85725.0 
+        140970.0 -85725.0 140969.9 -85724.9 
+      )
+      (net "N-000017" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -70612.0 157226.0 -70611.9 
+        157226.0 -70612.0 157345.0 -70612.0 
+        157345.0 -70612.0 159166.0 -68791.6 
+        159166.0 -68791.6 159166.0 -64798.2 
+        159166.0 -64798.2 157359.0 -62992.0 
+        157359.0 -62992.0 157226.0 -62992.0 
+        157226.0 -62992.0 157226.0 -62991.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        141605.0 -120269.0 141604.9 -120269.0 
+        141605.0 -120269.0 141605.0 -114935.0 
+        141605.0 -114935.0 141605.1 -114935.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        138430.0 -120268.9 138430.0 -120269.0 
+        141605.0 -120269.0 141605.1 -120269.0 
+        141605.0 -120269.0 141604.9 -120269.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        135890.0 -82550.0 140970.0 -82550.0 
+        140970.0 -82550.0 140970.1 -82549.9 
+        147828.0 -73152.0 157226.0 -73152.0 
+        157226.0 -73152.0 157226.0 -73152.1 
+      )
+      (net "N-000036" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        127000.0 -96520.0 126999.9 -96519.9 
+        127000.0 -96520.0 137795.0 -85725.0 
+        139784.5 -85725.0 141670.9 -85725.0 
+        140970.0 -85725.0 140970.0 -85725.1 
+      )
+      (net "N-000017" 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        151130.0 -85725.0 151130.1 -85724.9 
+        151130.0 -83683.2 151130.0 -82550.0 
+        151130.0 -82550.0 151130.1 -82550.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134409.2 -54610.0 134409.2 -54610.1 
+        134409.2 -54610.0 134409.0 -54610.0 
+        134409.0 -54610.0 134409.0 -54609.9 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -70612.0 157226.0 -70612.1 
+        157226.0 -70612.0 153416.0 -70612.0 
+        153416.0 -70612.0 153416.0 -70611.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139408.0 -54610.0 139408.0 -54609.9 
+        141967.0 -54610.0 139407.9 -54610.0 
+        139407.9 -54610.0 139407.9 -54609.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        139408.0 -54610.0 139408.0 -54609.9 
+        139408.0 -54610.0 144526.0 -54610.0 
+        144526.0 -54610.0 148082.0 -58166.0 
+        148082.0 -58166.0 148082.0 -60452.0 
+        148082.0 -60452.0 148081.9 -60452.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134514.0 -54504.6 134462.0 -54557.3 
+        134462.0 -54557.3 134409.0 -54610.0 
+        134409.0 -54610.0 134356.3 -54557.0 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134514.0 -54504.6 134409.0 -54609.9 
+        134409.0 -54609.6 134409.0 -54610.0 
+        134409.0 -54610.0 134408.9 -54610.0 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134462.0 -54557.3 134514.3 -54610.3 
+        134462.0 -54557.3 134409.0 -54609.6 
+        134409.0 -54609.6 134409.0 -54610.0 
+        134514.0 -54504.6 134409.0 -54609.9 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134514.0 -54504.6 134566.7 -54556.6 
+        134514.0 -54504.6 134462.0 -54557.3 
+        134462.0 -54557.3 134409.0 -54609.6 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -64770.0 182499.0 -64770.0 
+        182499.0 -64770.0 182499.0 -68453.0 
+        182499.0 -68453.0 182498.9 -68453.0 
+      )
+      (net "N-000042" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -64770.0 192024.0 -64770.1 
+        192024.0 -64770.0 182499.0 -64770.0 
+        182499.0 -64770.0 182499.0 -64770.1 
+      )
+      (net "N-000042" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -69850.0 185674.0 -69850.0 
+        185674.0 -69850.0 185674.0 -73787.0 
+        185674.0 -73787.0 185673.9 -73787.0 
+      )
+      (net "N-000002" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -69850.0 192024.0 -69850.1 
+        192024.0 -69850.0 185674.0 -69850.0 
+        185674.0 -69850.0 185674.0 -69850.1 
+      )
+      (net "N-000002" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -96266.0 156972.1 -96266.0 
+        156972.0 -93218.0 156972.0 -99314.0 
+        156972.0 -99314.0 156971.9 -99314.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -93218.0 156972.1 -93218.0 
+        156972.0 -93218.0 156972.0 -99314.0 
+        156972.0 -96266.0 156972.1 -96266.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        176784.0 -115824.0 176784.0 -120396.0 
+        176784.0 -120396.0 173482.0 -120396.0 
+        173482.0 -120396.0 173482.0 -120395.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        172974.0 -115824.0 176784.0 -115824.0 
+        176784.0 -115824.0 176784.0 -120396.0 
+        180086.0 -120396.0 176784.0 -120396.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        182753.0 -120396.0 182753.0 -120395.9 
+        180086.0 -120396.0 183388.0 -120396.0 
+        183388.0 -120396.0 183388.0 -120396.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180086.0 -120396.0 180086.0 -120395.9 
+        180086.0 -120396.0 183388.0 -120396.0 
+        182753.0 -120396.0 182753.0 -120395.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        172974.0 -115824.0 172974.0 -115823.9 
+        172974.0 -115824.0 176784.0 -115824.0 
+        176784.0 -115824.0 176784.0 -120396.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134514.0 -54504.6 134549.1 -54539.6 
+        134514.0 -54504.6 134409.0 -54609.9 
+        134409.0 -54609.9 134373.9 -54574.9 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134409.0 -54609.9 134409.1 -54609.9 
+        134409.0 -54609.9 134409.0 -54610.0 
+        134409.0 -54610.0 134408.9 -54610.0 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        134409.0 -54610.0 134409.0 -54610.1 
+        134409.0 -54610.0 132334.0 -54610.0 
+        132334.0 -54610.0 130810.0 -56134.0 
+        130810.0 -56134.0 127000.0 -56134.0 
+        127000.0 -56134.0 127000.0 -56133.9 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        136652.0 -49530.0 136652.1 -49530.1 
+        136652.0 -49530.0 134620.0 -51562.0 
+        134620.0 -51562.0 134620.0 -54399.2 
+        134620.0 -54399.2 134514.0 -54504.6 
+        134514.0 -54504.6 134461.3 -54451.6 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        121158.0 -56134.0 121158.0 -56133.9 
+        121158.0 -56134.0 127000.0 -56134.0 
+        127000.0 -56134.0 127000.0 -56134.1 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137668.0 -66294.0 137667.9 -66294.1 
+        137668.0 -66294.0 137541.0 -66167.0 
+        137541.0 -66167.0 137541.0 -62230.0 
+        137541.0 -62230.0 137541.1 -62230.0 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        137541.0 -62230.0 137541.0 -62230.1 
+        137541.0 -62230.0 132334.0 -62230.0 
+        132334.0 -62230.0 128778.0 -58674.0 
+        128778.0 -58674.0 123698.0 -58674.0 
+        123698.0 -58674.0 121158.0 -56134.0 
+        121158.0 -56134.0 121158.1 -56133.9 
+      )
+      (net VCC 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        157226.0 -57912.0 157226.0 -57911.9 
+        157226.0 -57912.0 158487.0 -57912.0 
+        158487.0 -57912.0 159956.0 -59381.1 
+        159956.0 -59381.1 159956.0 -73279.0 
+        159956.0 -73279.0 161036.0 -74358.5 
+        161036.0 -74358.5 161036.0 -97599.5 
+        161036.0 -97599.5 165798.0 -102362.0 
+        165798.0 -102362.0 167132.0 -102362.0 
+        167132.0 -102362.0 167132.0 -102362.1 
+      )
+      (net "N-000041" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        167132.0 -102362.0 167131.9 -102361.9 
+        167132.0 -102362.0 169799.0 -99695.0 
+        169799.0 -99695.0 172720.0 -99695.0 
+        172720.0 -99695.0 172720.0 -99695.1 
+      )
+      (net "N-000041" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 350.0
+        167132.0 -96266.0 162314.1 -101084.0 
+        167132.0 -96266.0 162314.0 -91448.1 
+        162314.0 -91448.1 162314.0 -73707.2 
+        162314.0 -73707.2 161334.0 -72727.3 
+        161334.0 -72727.3 161334.0 -56940.2 
+        161334.0 -56940.2 157226.0 -52832.0 
+        157226.0 -52832.0 159280.1 -50778.0 
+      )
+      (net "N-000040" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        167132.0 -96266.0 167132.0 -96265.9 
+        167132.0 -96266.0 180721.0 -96266.0 
+        180721.0 -96266.0 182880.0 -98425.0 
+        182880.0 -98425.0 182880.0 -99695.0 
+        182880.0 -99695.0 182879.9 -99695.0 
+      )
+      (net "N-000040" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 350.0
+        167132.0 -93218.0 166090.1 -94260.0 
+        167132.0 -93218.0 162964.0 -89050.4 
+        162964.0 -89050.4 162964.0 -73320.0 
+        162964.0 -73320.0 161984.0 -72340.1 
+        161984.0 -72340.1 161984.0 -55693.5 
+        161984.0 -55693.5 164846.0 -52832.0 
+        164846.0 -52832.0 165418.3 -53404.4 
+      )
+      (net "N-000039" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        167132.0 -93218.0 167132.0 -93217.9 
+        167132.0 -93218.0 182753.0 -93218.0 
+        182753.0 -93218.0 187960.0 -98425.0 
+        187960.0 -98425.0 187960.0 -99695.0 
+        187960.0 -99695.0 187959.9 -99695.0 
+      )
+      (net "N-000039" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 350.0
+        167132.0 -99314.0 164397.9 -102048.0 
+        167132.0 -99314.0 161664.0 -93845.8 
+        161664.0 -93845.8 161664.0 -73976.6 
+        161664.0 -73976.6 160684.0 -72996.7 
+        160684.0 -72996.7 160684.0 -58829.9 
+        160684.0 -58829.9 157226.0 -55372.0 
+        157226.0 -55372.0 160683.9 -51914.0 
+      )
+      (net "N-000038" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 360.0
+        167132.0 -99314.0 167132.0 -99313.9 
+        167132.0 -99314.0 168402.0 -99314.0 
+        168402.0 -99314.0 170053.0 -97663.0 
+        170053.0 -97663.0 177038.0 -97663.0 
+        177038.0 -97663.0 177800.0 -98425.0 
+        177800.0 -98425.0 177800.0 -99695.0 
+        177800.0 -99695.0 177799.9 -99695.0 
+      )
+      (net "N-000038" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 350.0
+        167132.0 -90170.0 167131.9 -90170.1 
+        167132.0 -90170.0 164846.0 -87884.0 
+        164846.0 -87884.0 164846.0 -85852.0 
+        164846.0 -85852.0 164846.1 -85852.0 
+      )
+      (net "N-000037" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        181356.0 -110744.0 181356.1 -110744.0 
+        181356.0 -110744.0 181356.0 -111760.0 
+        181356.0 -111760.0 183388.0 -113792.0 
+        183388.0 -113792.0 186563.0 -113792.0 
+        186563.0 -113792.0 187833.0 -115062.0 
+        187833.0 -115062.0 187833.0 -116713.0 
+        187833.0 -116713.0 185674.0 -118872.0 
+        185674.0 -118872.0 185674.0 -122047.0 
+        185674.0 -122047.0 180086.0 -127635.0 
+        180086.0 -127635.0 180086.0 -132461.0 
+        180086.0 -132461.0 180085.9 -132461.0 
+      )
+      (net "N-000035" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        182880.0 -107315.0 182880.1 -107315.0 
+        182880.0 -107315.0 182880.0 -109220.0 
+        182880.0 -109220.0 181356.0 -110744.0 
+        181356.0 -110744.0 181355.9 -110743.9 
+      )
+      (net "N-000035" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173736.0 -141732.0 173736.0 -141731.9 
+        173736.0 -141732.0 175006.0 -141732.0 
+        175006.0 -141732.0 178308.0 -138430.0 
+        178308.0 -138430.0 178308.0 -135636.0 
+        178308.0 -135636.0 180086.0 -133858.0 
+        180086.0 -133858.0 180086.0 -132461.0 
+        180086.0 -132461.0 180086.1 -132461.0 
+      )
+      (net "N-000035" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173736.0 -144272.0 173736.0 -144271.9 
+        173736.0 -144272.0 175133.0 -144272.0 
+        175133.0 -144272.0 179832.0 -139573.0 
+        179832.0 -139573.0 179832.0 -137414.0 
+        179832.0 -137414.0 183388.0 -133858.0 
+        183388.0 -133858.0 183388.0 -132461.0 
+        183388.0 -132461.0 183388.1 -132461.0 
+      )
+      (net "N-000034" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185293.0 -110744.0 185293.1 -110744.0 
+        185293.0 -110744.0 185293.0 -110871.0 
+        185293.0 -110871.0 188976.0 -114554.0 
+        188976.0 -114554.0 188976.0 -117094.0 
+        188976.0 -117094.0 186817.0 -119253.0 
+        186817.0 -119253.0 186817.0 -122809.0 
+        186817.0 -122809.0 183388.0 -126238.0 
+        183388.0 -126238.0 183388.0 -132461.0 
+        183388.0 -132461.0 183387.9 -132461.0 
+      )
+      (net "N-000034" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        187960.0 -107315.0 187960.1 -107315.0 
+        187960.0 -107315.0 187960.0 -109474.0 
+        187960.0 -109474.0 186690.0 -110744.0 
+        186690.0 -110744.0 185293.0 -110744.0 
+        185293.0 -110744.0 185293.0 -110743.9 
+      )
+      (net "N-000034" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        169418.0 -57785.0 169418.1 -57784.9 
+        169418.0 -57785.0 169545.0 -57912.0 
+        169545.0 -57912.0 173990.0 -57912.0 
+        173990.0 -57912.0 173990.0 -57912.1 
+      )
+      (net "N-000032" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -62992.0 164846.0 -62991.9 
+        164846.0 -62992.0 165989.0 -62992.0 
+        165989.0 -62992.0 169418.0 -59563.0 
+        169418.0 -59563.0 169418.0 -57785.0 
+        169418.0 -57785.0 169418.1 -57785.0 
+      )
+      (net "N-000032" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        169418.0 -63500.0 169418.0 -63499.9 
+        169418.0 -63500.0 173990.0 -63500.0 
+        173990.0 -63500.0 173990.0 -63500.1 
+      )
+      (net "N-000031" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -65532.0 164846.0 -65531.9 
+        164846.0 -65532.0 167386.0 -65532.0 
+        167386.0 -65532.0 169418.0 -63500.0 
+        169418.0 -63500.0 169418.1 -63500.1 
+      )
+      (net "N-000031" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173736.0 -136652.0 173735.9 -136652.0 
+        173736.0 -136652.0 173736.0 -132715.0 
+        173736.0 -132715.0 173482.0 -132461.0 
+        173482.0 -132461.0 173482.1 -132460.9 
+      )
+      (net "N-000030" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        172720.0 -107315.0 172720.1 -107315.0 
+        172720.0 -107315.0 172720.0 -110490.0 
+        172720.0 -110490.0 172974.0 -110744.0 
+        172974.0 -110744.0 172973.9 -110744.1 
+      )
+      (net "N-000030" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        172974.0 -110744.0 172974.0 -110744.1 
+        172974.0 -110744.0 172212.0 -110744.0 
+        172212.0 -110744.0 169291.0 -113665.0 
+        169291.0 -113665.0 169291.0 -128270.0 
+        169291.0 -128270.0 173482.0 -132461.0 
+        173482.0 -132461.0 173481.9 -132461.1 
+      )
+      (net "N-000030" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        176784.0 -110744.0 176784.1 -110744.0 
+        176784.0 -110744.0 176784.0 -111760.0 
+        176784.0 -111760.0 175260.0 -113284.0 
+        175260.0 -113284.0 171831.0 -113284.0 
+        171831.0 -113284.0 170434.0 -114681.0 
+        170434.0 -114681.0 170434.0 -121031.0 
+        170434.0 -121031.0 176784.0 -127381.0 
+        176784.0 -127381.0 176784.0 -132461.0 
+        176784.0 -132461.0 176783.9 -132461.0 
+      )
+      (net "N-000029" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        177800.0 -107315.0 177800.1 -107315.0 
+        177800.0 -107315.0 177800.0 -109728.0 
+        177800.0 -109728.0 176784.0 -110744.0 
+        176784.0 -110744.0 176783.9 -110743.9 
+      )
+      (net "N-000029" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173736.0 -139192.0 173736.0 -139191.9 
+        173736.0 -139192.0 175133.0 -139192.0 
+        175133.0 -139192.0 176784.0 -137541.0 
+        176784.0 -137541.0 176784.0 -132461.0 
+        176784.0 -132461.0 176784.1 -132461.0 
+      )
+      (net "N-000029" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -135382.0 192024.1 -135382.0 
+        192024.0 -135382.0 192024.0 -135890.0 
+        192024.0 -135890.0 186690.0 -141224.0 
+        186690.0 -141224.0 186690.0 -142748.0 
+        186690.0 -142748.0 185166.0 -144272.0 
+        185166.0 -144272.0 183896.0 -144272.0 
+        183896.0 -144272.0 183896.0 -144271.9 
+      )
+      (net "N-000013" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -120142.0 192024.1 -120142.1 
+        192024.0 -120142.0 186944.0 -125222.0 
+        186944.0 -125222.0 186944.0 -133604.0 
+        186944.0 -133604.0 183896.0 -136652.0 
+        183896.0 -136652.0 183895.9 -136651.9 
+      )
+      (net "N-000012" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -125222.0 192024.0 -125222.1 
+        192024.0 -125222.0 190627.0 -125222.0 
+        190627.0 -125222.0 188087.0 -127762.0 
+        188087.0 -127762.0 188087.0 -134239.0 
+        188087.0 -134239.0 186563.0 -135763.0 
+        186563.0 -135763.0 186563.0 -137922.0 
+        186563.0 -137922.0 185293.0 -139192.0 
+        185293.0 -139192.0 183896.0 -139192.0 
+        183896.0 -139192.0 183896.0 -139191.9 
+      )
+      (net "N-000011" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -80772.0 164846.0 -80771.9 
+        164846.0 -80772.0 165481.0 -80772.0 
+        165481.0 -80772.0 168021.0 -83312.0 
+        168021.0 -83312.0 168656.0 -83312.0 
+        168656.0 -83312.0 168656.0 -83312.1 
+      )
+      (net "N-000010" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -75692.0 168656.0 -75691.9 
+        168656.0 -75692.0 170053.0 -75692.0 
+        170053.0 -75692.0 171577.0 -77216.0 
+        171577.0 -77216.0 171577.0 -83439.0 
+        171577.0 -83439.0 169926.0 -85090.0 
+        169926.0 -85090.0 167640.0 -85090.0 
+        167640.0 -85090.0 165862.0 -83312.0 
+        165862.0 -83312.0 164846.0 -83312.0 
+        164846.0 -83312.0 164846.0 -83311.9 
+      )
+      (net "N-000009" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        126492.0 -49530.0 126491.9 -49530.0 
+        126492.0 -49530.0 126492.0 -46609.0 
+        126492.0 -46609.0 127381.0 -45720.0 
+        127381.0 -45720.0 127381.1 -45720.1 
+      )
+      (net "N-000008" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        119634.0 -64262.0 119634.4 -64261.7 
+        119634.0 -64262.0 121158.0 -66294.0 
+        121158.0 -66294.0 127508.0 -66294.0 
+        127508.0 -66294.0 127508.0 -66294.1 
+      )
+      (net "N-000006" 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -78232.0 164846.0 -78231.9 
+        164846.0 -78232.0 168656.0 -78232.0 
+        168656.0 -78232.0 168656.0 -78232.1 
+      )
+      (net "N-000005" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -78232.0 168656.1 -78232.0 
+        168656.0 -78232.0 168656.0 -80772.0 
+        168656.0 -80772.0 168655.9 -80772.0 
+      )
+      (net "N-000005" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        179070.0 -115824.0 179070.0 -115824.1 
+        179070.0 -115824.0 176784.0 -115824.0 
+        176784.0 -115824.0 176784.0 -115823.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -107315.0 180340.1 -107315.0 
+        180340.0 -107315.0 180340.0 -108331.0 
+        180340.0 -108331.0 179070.0 -109601.0 
+        179070.0 -109601.0 179070.0 -115824.0 
+        179070.0 -115824.0 179069.9 -115824.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185420.0 -107191.0 185420.1 -107191.0 
+        185420.0 -107191.0 185420.0 -107315.0 
+        185420.0 -107315.0 185419.9 -107315.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        190500.0 -107315.0 190499.9 -107315.0 
+        190500.0 -107315.0 190500.0 -107295.0 
+        190500.0 -107295.0 188600.0 -105395.0 
+        188600.0 -105395.0 187216.0 -105395.0 
+        187216.0 -105395.0 185420.0 -107191.0 
+        185420.0 -107191.0 185419.9 -107190.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185420.0 -107191.0 185419.9 -107191.1 
+        185420.0 -107191.0 183624.0 -105395.0 
+        183624.0 -105395.0 182140.0 -105395.0 
+        182140.0 -105395.0 180340.0 -107196.0 
+        180340.0 -107196.0 180159.9 -107016.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -107196.0 180339.9 -107196.1 
+        180340.0 -107196.0 178554.0 -105410.0 
+        178554.0 -105410.0 177140.0 -105410.0 
+        177140.0 -105410.0 175260.0 -107289.0 
+        175260.0 -107289.0 175260.0 -107315.0 
+        175260.0 -107315.0 175259.9 -107315.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -107315.0 180339.9 -107315.0 
+        180340.0 -107315.0 180340.0 -107196.0 
+        180340.0 -107196.0 180340.1 -107196.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        192024.0 -115062.0 192023.9 -115062.0 
+        192024.0 -115062.0 192024.0 -108839.0 
+        192024.0 -108839.0 190500.0 -107315.0 
+        190500.0 -107315.0 190500.1 -107314.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        182753.0 -120396.0 182753.0 -120395.9 
+        182753.0 -120396.0 183388.0 -120396.0 
+        183388.0 -120396.0 183388.0 -120396.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185293.0 -115824.0 185293.0 -115824.1 
+        185293.0 -115824.0 181356.0 -115824.0 
+        181356.0 -115824.0 181356.0 -115823.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180086.0 -120396.0 180086.0 -120396.1 
+        180086.0 -120396.0 176784.0 -120396.0 
+        176784.0 -120396.0 176784.0 -120395.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        181356.0 -115824.0 181356.0 -115824.1 
+        181356.0 -115824.0 179070.0 -115824.0 
+        179070.0 -115824.0 179070.0 -115823.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        183388.0 -120396.0 183387.9 -120396.0 
+        183388.0 -120396.0 183388.0 -117729.0 
+        183388.0 -117729.0 185293.0 -115824.0 
+        185293.0 -115824.0 185293.1 -115824.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        172974.0 -115824.0 172974.1 -115824.0 
+        172974.0 -115824.0 172974.0 -119888.0 
+        172974.0 -119888.0 173482.0 -120396.0 
+        173482.0 -120396.0 173481.9 -120396.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180086.0 -120396.0 180085.9 -120396.0 
+        180086.0 -120396.0 180086.0 -117094.0 
+        180086.0 -117094.0 181356.0 -115824.0 
+        181356.0 -115824.0 181356.1 -115824.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        130566.0 -48011.3 126496.7 -43941.3 
+        130566.0 -48011.3 134636.0 -43942.0 
+        134636.0 -43942.0 173736.0 -43942.0 
+        173736.0 -43942.0 182499.0 -52705.0 
+        182499.0 -52705.0 182498.9 -52705.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        145542.0 -68072.0 145542.1 -68072.0 
+        145542.0 -68072.0 145542.0 -69342.0 
+        145542.0 -69342.0 146812.0 -70612.0 
+        146812.0 -70612.0 153416.0 -70612.0 
+        153416.0 -70612.0 153416.0 -70612.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        127000.0 -53594.0 125216.9 -51811.0 
+        127000.0 -53594.0 130566.0 -50027.8 
+        130566.0 -50027.8 130566.0 -48011.3 
+        130566.0 -48011.3 130566.1 -48011.3 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        121158.0 -53594.0 121158.0 -53593.9 
+        121158.0 -53594.0 127000.0 -53594.0 
+        127000.0 -53594.0 127000.0 -53594.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -99720.7 180339.9 -99720.7 
+        180340.0 -99720.7 180340.0 -99695.0 
+        180340.0 -99695.0 180340.1 -99695.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        175260.0 -99695.0 175260.1 -99695.0 
+        175260.0 -99695.0 175260.0 -99814.2 
+        175260.0 -99814.2 175259.9 -99814.2 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        175260.0 -99814.2 176152.9 -98921.2 
+        175260.0 -99814.2 177046.0 -101600.0 
+        177046.0 -101600.0 178460.0 -101600.0 
+        178460.0 -101600.0 180340.0 -99720.7 
+        180340.0 -99720.7 182219.3 -101600.7 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -99720.7 182219.3 -97840.7 
+        180340.0 -99720.7 182220.0 -101600.0 
+        182220.0 -101600.0 183540.0 -101600.0 
+        183540.0 -101600.0 185420.0 -99720.7 
+        185420.0 -99720.7 187299.3 -101600.7 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185420.0 -99720.7 185419.9 -99720.7 
+        185420.0 -99720.7 185420.0 -99695.0 
+        185420.0 -99695.0 185420.1 -99695.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        190500.0 -99695.0 190500.1 -99695.0 
+        190500.0 -99695.0 190500.0 -99829.9 
+        190500.0 -99829.9 188730.0 -101600.0 
+        188730.0 -101600.0 187300.0 -101600.0 
+        187300.0 -101600.0 185420.0 -99720.7 
+        185420.0 -99720.7 187299.3 -97840.7 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173990.0 -55372.0 175482.3 -53880.0 
+        173990.0 -55372.0 175482.0 -56864.3 
+        175482.0 -56864.3 175482.0 -64547.7 
+        175482.0 -64547.7 173990.0 -66040.0 
+        173990.0 -66040.0 172497.7 -64548.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173990.0 -55372.0 173989.9 -55372.0 
+        173990.0 -55372.0 173990.0 -52832.0 
+        173990.0 -52832.0 173990.1 -52832.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -73152.0 164846.0 -73151.9 
+        164846.0 -73152.0 168529.0 -73152.0 
+        168529.0 -73152.0 168656.0 -73025.0 
+        168656.0 -73025.0 168656.0 -72898.0 
+        168656.0 -72898.0 168656.1 -72898.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164730.0 -68072.0 164730.0 -68071.9 
+        164730.0 -68072.0 164846.0 -68072.0 
+        164846.0 -68072.0 164846.0 -68072.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -60452.0 164846.0 -60452.1 
+        164846.0 -60452.0 164767.0 -60452.0 
+        164767.0 -60452.0 162928.0 -62291.1 
+        162928.0 -62291.1 162928.0 -66269.7 
+        162928.0 -66269.7 164730.0 -68072.0 
+        164730.0 -68072.0 162927.7 -69874.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -73152.0 164846.0 -73152.1 
+        164846.0 -73152.0 164839.0 -73152.0 
+        164839.0 -73152.0 162941.0 -71254.0 
+        162941.0 -71254.0 162941.0 -69861.2 
+        162941.0 -69861.2 164730.0 -68072.0 
+        164730.0 -68072.0 165624.6 -68966.5 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -57912.0 164846.1 -57912.0 
+        164846.0 -57912.0 164846.0 -60452.0 
+        164846.0 -60452.0 164845.9 -60452.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        130566.0 -48011.3 130566.0 -48011.2 
+        130566.0 -48011.3 138692.0 -48011.3 
+        138692.0 -48011.3 138692.0 -48011.4 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        138692.0 -48011.3 138692.1 -48011.3 
+        138692.0 -48011.3 138692.0 -52824.1 
+        138692.0 -52824.1 136906.0 -54610.0 
+        136906.0 -54610.0 135120.1 -52824.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        177546.0 -87376.0 176422.7 -88499.0 
+        177546.0 -87376.0 176423.0 -86252.7 
+        176423.0 -86252.7 176276.0 -86252.7 
+        176276.0 -86252.7 176276.0 -83312.0 
+        176276.0 -83312.0 176276.1 -83312.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173990.0 -66040.0 173990.1 -66040.0 
+        173990.0 -66040.0 173990.0 -68580.0 
+        173990.0 -68580.0 173989.9 -68580.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -73152.0 164846.1 -73152.0 
+        164846.0 -73152.0 164846.0 -75692.0 
+        164846.0 -75692.0 164845.9 -75692.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -57912.0 164845.9 -57912.0 
+        164846.0 -57912.0 164846.0 -55372.0 
+        164846.0 -55372.0 164846.1 -55372.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -62992.0 157225.9 -62992.0 
+        157226.0 -62992.0 157226.0 -60452.0 
+        157226.0 -60452.0 157226.1 -60452.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        136906.0 -54610.0 136906.1 -54610.0 
+        136906.0 -54610.0 136906.0 -55626.0 
+        136906.0 -55626.0 141732.0 -60452.0 
+        141732.0 -60452.0 145542.0 -60452.0 
+        145542.0 -60452.0 145542.0 -60452.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        145542.0 -60452.0 145542.1 -60452.0 
+        145542.0 -60452.0 145542.0 -68072.0 
+        145542.0 -68072.0 145541.9 -68072.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        173990.0 -52832.0 173990.0 -52832.1 
+        173990.0 -52832.0 168402.0 -52832.0 
+        168402.0 -52832.0 168402.0 -52831.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        164846.0 -55372.0 164846.0 -55371.9 
+        164846.0 -55372.0 165862.0 -55372.0 
+        165862.0 -55372.0 168402.0 -52832.0 
+        168402.0 -52832.0 168402.1 -52832.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168402.0 -52832.0 168401.9 -52832.1 
+        168402.0 -52832.0 165100.0 -49530.0 
+        165100.0 -49530.0 156972.0 -49530.0 
+        156972.0 -49530.0 154432.0 -52070.0 
+        154432.0 -52070.0 154432.0 -58928.0 
+        154432.0 -58928.0 155956.0 -60452.0 
+        155956.0 -60452.0 157226.0 -60452.0 
+        157226.0 -60452.0 157226.0 -60452.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        119634.0 -69342.0 119634.0 -69341.9 
+        119126.0 -69342.0 128651.0 -69342.0 
+        128651.0 -69342.0 130810.0 -67183.0 
+        130810.0 -67183.0 130810.0 -65405.0 
+        130810.0 -65405.0 127635.0 -62230.0 
+        127635.0 -62230.0 125476.0 -62230.0 
+        125476.0 -62230.0 125476.0 -62229.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        125476.0 -62230.0 125476.0 -62230.1 
+        125476.0 -62230.0 123063.0 -62230.0 
+        123063.0 -62230.0 118237.0 -57404.0 
+        118237.0 -57404.0 118237.0 -55118.0 
+        118237.0 -55118.0 119761.0 -53594.0 
+        119761.0 -53594.0 121158.0 -53594.0 
+        121158.0 -53594.0 121158.0 -53594.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        178943.0 -68072.0 178942.9 -68072.0 
+        178943.0 -68072.0 178943.0 -52578.0 
+        178943.0 -52578.0 172085.0 -45720.0 
+        172085.0 -45720.0 140983.0 -45720.0 
+        140983.0 -45720.0 138692.0 -48011.3 
+        138692.0 -48011.3 136400.7 -45720.3 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        177546.0 -87376.0 177546.0 -87375.9 
+        177546.0 -87376.0 179451.0 -87376.0 
+        179451.0 -87376.0 190500.0 -98425.0 
+        190500.0 -98425.0 190500.0 -99695.0 
+        190500.0 -99695.0 190499.9 -99695.0 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        185420.0 -99695.0 185419.9 -99695.0 
+        185420.0 -99695.0 185420.0 -98806.0 
+        185420.0 -98806.0 184785.0 -98171.0 
+        184785.0 -98171.0 184404.0 -98171.0 
+        184404.0 -98171.0 184404.0 -98170.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        180340.0 -99695.0 180339.9 -99695.0 
+        180340.0 -99695.0 180340.0 -98933.0 
+        180340.0 -98933.0 179197.0 -97790.0 
+        179197.0 -97790.0 179197.1 -97789.9 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -72898.0 168656.0 -72897.9 
+        168656.0 -72898.0 170180.0 -72898.0 
+        170180.0 -72898.0 172720.0 -75438.0 
+        172720.0 -75438.0 172720.0 -83947.0 
+        172720.0 -83947.0 170434.0 -86233.0 
+        170434.0 -86233.0 170434.0 -88646.0 
+        170434.0 -88646.0 171450.0 -89662.0 
+        171450.0 -89662.0 175260.0 -89662.0 
+        175260.0 -89662.0 177546.0 -87376.0 
+        177546.0 -87376.0 177546.1 -87376.1 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        129921.0 -45720.0 129921.1 -45720.0 
+        129921.0 -45720.0 129921.0 -47366.3 
+        129921.0 -47366.3 130566.0 -48011.3 
+        130566.0 -48011.3 130565.9 -48011.4 
+      )
+      (net DGND 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        176276.0 -78232.0 176276.0 -78231.9 
+        176276.0 -78232.0 182118.0 -78232.0 
+        182118.0 -78232.0 182499.0 -78613.0 
+        182499.0 -78613.0 182498.9 -78613.1 
+      )
+      (net B 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        176276.0 -80772.0 176276.0 -80771.9 
+        176276.0 -80772.0 179197.0 -80772.0 
+        179197.0 -80772.0 182372.0 -83947.0 
+        182372.0 -83947.0 185674.0 -83947.0 
+        185674.0 -83947.0 185674.0 -83947.1 
+      )
+      (net A 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        178943.0 -73152.0 178943.0 -73152.1 
+        178943.0 -73152.0 178816.0 -73152.0 
+        178816.0 -73152.0 176276.0 -75692.0 
+        176276.0 -75692.0 176275.9 -75691.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168402.0 -47752.0 168402.0 -47751.9 
+        168402.0 -47752.0 172466.0 -47752.0 
+        172466.0 -47752.0 176911.0 -52197.0 
+        176911.0 -52197.0 176911.0 -66421.0 
+        176911.0 -66421.0 176149.0 -67183.0 
+        176149.0 -67183.0 176149.0 -70358.0 
+        176149.0 -70358.0 178943.0 -73152.0 
+        178943.0 -73152.0 178942.9 -73152.1 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -68072.0 168656.1 -68072.0 
+        168656.0 -68072.0 168656.0 -68326.0 
+        168656.0 -68326.0 166370.0 -70612.0 
+        166370.0 -70612.0 164846.0 -70612.0 
+        164846.0 -70612.0 164846.0 -70611.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -67818.0 168656.1 -67818.0 
+        168656.0 -67818.0 168656.0 -68072.0 
+        168656.0 -68072.0 168655.9 -68072.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -99314.0 156972.1 -99314.0 
+        156972.0 -99314.0 156972.0 -102362.0 
+        156972.0 -102362.0 156971.9 -102362.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        157226.0 -68072.0 157225.9 -68072.0 
+        157226.0 -68072.0 157226.0 -65532.0 
+        157226.0 -65532.0 157226.1 -65532.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        148082.0 -60452.0 148082.1 -60452.0 
+        148082.0 -60452.0 148082.0 -68072.0 
+        148082.0 -68072.0 148081.9 -68072.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -67818.0 168656.1 -67818.0 
+        168656.0 -67818.0 168656.0 -68072.0 
+        168656.0 -68072.0 168655.9 -68072.0 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168656.0 -68072.0 168656.1 -68071.9 
+        168656.0 -68072.0 176276.0 -75692.0 
+        176276.0 -75692.0 176275.9 -75692.1 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        153416.0 -65532.0 153416.0 -65531.9 
+        153416.0 -65532.0 157226.0 -65532.0 
+        157226.0 -65532.0 157226.0 -65532.1 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        153416.0 -65532.0 153416.1 -65532.1 
+        153416.0 -65532.0 150876.0 -68072.0 
+        150876.0 -68072.0 148082.0 -68072.0 
+        148082.0 -68072.0 148082.0 -68071.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        168402.0 -47752.0 168402.0 -47752.1 
+        168402.0 -47752.0 156718.0 -47752.0 
+        156718.0 -47752.0 150368.0 -54102.0 
+        150368.0 -54102.0 150368.0 -65786.0 
+        150368.0 -65786.0 148082.0 -68072.0 
+        148082.0 -68072.0 148081.9 -68071.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        178943.0 -73152.0 178943.0 -73151.9 
+        178943.0 -73152.0 181102.0 -73152.0 
+        181102.0 -73152.0 192532.0 -84963.0 
+        192532.0 -84963.0 192532.0 -100965.0 
+        192532.0 -100965.0 191262.0 -102616.0 
+        191262.0 -102616.0 171069.0 -102616.0 
+        171069.0 -102616.0 164465.0 -109347.0 
+        164465.0 -109347.0 164465.0 -112268.0 
+        164465.0 -112268.0 162941.0 -113792.0 
+        162941.0 -113792.0 158496.0 -113792.0 
+        158496.0 -113792.0 157124.0 -112396.0 
+        157124.0 -112396.0 157099.0 -108458.0 
+        157099.0 -108458.0 157492.8 -108455.5 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        156972.0 -102362.0 156972.1 -102362.0 
+        156972.0 -102362.0 156972.0 -108331.0 
+        156972.0 -108331.0 157099.0 -108458.0 
+        157099.0 -108458.0 157098.9 -108458.1 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire
+      (polyline_path Dolna 508.0
+        176276.0 -75692.0 176276.0 -75692.1 
+        176276.0 -75692.0 175133.0 -75692.0 
+        175133.0 -75692.0 173736.0 -77089.0 
+        173736.0 -77089.0 173736.0 -86106.0 
+        173736.0 -86106.0 172466.0 -87376.0 
+        172466.0 -87376.0 172465.9 -87375.9 
+      )
+      (net +5V 1)
+      (clearance_class Grube)
+      (type protect)
+    )
+    (wire 
+      (polygon Dolna 0
+        167005.0 -146304.0
+        186436.0 -146304.0
+        186436.0 -137160.0
+        194480.0 -137160.0
+        194183.0 -104902.0
+        171577.0 -104902.0
+        169672.0 -107315.0
+        167132.0 -110490.0
+      )
+      (net GNDPWR 1)
+      (clearance_class default)
+    )
+  )
+)
