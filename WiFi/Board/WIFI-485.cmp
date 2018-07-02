@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2016-01-11 21:52:09
+
+BeginCmp
+TimeStamp = /5627C8D0;
+Reference = C1;
+ValeurCmp = 220nF;
+IdModule  = C-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627C8DF;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = C-2_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53810A83;
+Reference = C4;
+ValeurCmp = 47uF;
+IdModule  = C-2_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C42027;
+Reference = C5;
+ValeurCmp = 4,7uF;
+IdModule  = C-2_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C41E21;
+Reference = C6;
+ValeurCmp = 47uF;
+IdModule  = C-2_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E0ECE;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53908383;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = C-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53908389;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = C-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390838F;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = C-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C42231;
+Reference = C16;
+ValeurCmp = 4,7uF;
+IdModule  = C-2_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53823A7C;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53810D7E;
+Reference = D2;
+ValeurCmp = Tr_30V;
+IdModule  = D5-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53823C35;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53863CB0;
+Reference = D4;
+ValeurCmp = Tr_15V;
+IdModule  = D5-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53863744;
+Reference = D5;
+ValeurCmp = Tr_15V;
+IdModule  = D5-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627C8C1;
+Reference = D6;
+ValeurCmp = 1N4148;
+IdModule  = D3-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5694164F;
+Reference = D7;
+ValeurCmp = 1N4148;
+IdModule  = D3-BOLD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53820162;
+Reference = IC2;
+ValeurCmp = ADM485;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53809C1F;
+Reference = P1;
+ValeurCmp = 3_PIN;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9B36A;
+Reference = P3;
+ValeurCmp = 3_PIN;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627D246;
+Reference = R1;
+ValeurCmp = 2k;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53823C44;
+Reference = R2;
+ValeurCmp = 3,9k;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627D240;
+Reference = R3;
+ValeurCmp = 1_k;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627C8B2;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /538ACD2A;
+Reference = R15;
+ValeurCmp = 10R;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /538ACD39;
+Reference = R16;
+ValeurCmp = 10R;
+IdModule  = R-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /536FB6E6;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = 7805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627D0BB;
+Reference = U2;
+ValeurCmp = HC-05;
+IdModule  = HC-05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627C7B5;
+Reference = U3;
+ValeurCmp = NE555;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56310D5A;
+Reference = U4;
+ValeurCmp = USR-WIFI232-T;
+IdModule  = USR-WIFI232-T;
+EndCmp
+
+BeginCmp
+TimeStamp = /564CACDB;
+Reference = U5;
+ValeurCmp = LD1117V33_;
+IdModule  = LD1117V33;
+EndCmp
+
+BeginCmp
+TimeStamp = /564CE20E;
+Reference = Z1;
+ValeurCmp = Z;
+IdModule  = Z;
+EndCmp
+
+EndListe

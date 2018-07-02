@@ -1,0 +1,149 @@
+
+(rules PCB WIFI-485
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 375)
+    (layer_rule Dolna
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+  )
+  (rule
+    (width 360.0)
+    (clear 254.2)
+    (clear 0.0 (type smd_to_turn_gap))
+    (clear 508.2 (type default_"G_Grube"))
+    (clear 2540.2 (type default_pad))
+    (clear 63.6 (type smd_smd))
+    (clear 508.2 (type smd_"G_Grube"))
+    (clear 2540.2 (type smd_pad))
+    (clear 508.2 (type "kicad_default"_"G_Grube"))
+    (clear 2540.2 (type "kicad_default"_pad))
+    (clear 508.2 (type "G_Grube"_"G_Grube"))
+    (clear 508.2 (type "G_Grube"_Grube))
+    (clear 2540.2 (type "G_Grube"_pad))
+    (clear 2540.2 (type Grube_pad))
+    (clear 2540.2 (type pad_pad))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle Dolna 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_889:0_um"
+    (shape
+      (circle Dolna 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:0_um" "Via[0-1]_889:0_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:0_um-kicad_default" "Via[0-1]_889:0_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:635_um-G_Grube" "Via[0-1]_889:635_um" "G_Grube"
+  )
+  (via 
+    "Via[0-1]_889:0_um-G_Grube" "Via[0-1]_889:0_um" "G_Grube"
+  )
+  (via 
+    "Via[0-1]_889:635_um-Grube" "Via[0-1]_889:635_um" Grube
+  )
+  (via 
+    "Via[0-1]_889:0_um-Grube" "Via[0-1]_889:0_um" Grube
+  )
+  (via 
+    "Via[0-1]_889:635_um-pad" "Via[0-1]_889:635_um" pad
+  )
+  (via 
+    "Via[0-1]_889:0_um-pad" "Via[0-1]_889:0_um" pad
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (via_rule
+    "G_Grube" "Via[0-1]_889:635_um-G_Grube"
+  )
+  (via_rule
+    Grube "Via[0-1]_889:635_um-Grube"
+  )
+  (via_rule
+    pad "Via[0-1]_889:635_um-pad"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 360.0)
+    )
+    (circuit 
+      (use_layer Dolna)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 360.0)
+    )
+    (circuit 
+      (use_layer Dolna)
+    )
+  )
+  (class "G_Grube"
+    (clearance_class "G_Grube")
+    (via_rule G_Grube)
+    (rule
+      (width 3500.0)
+    )
+    (circuit 
+      (use_layer Dolna)
+    )
+  )
+  (class Grube
+    +5V A B DGND GND "N-000003" "N-000006" "N-000007"
+    "N-000011" "N-000012" "N-000013" "N-000014" "N-000015" "N-000016" "N-000020" "N-000022"
+    VCC
+    (clearance_class Grube)
+    (via_rule Grube)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer Dolna)
+    )
+  )
+  (class pad
+    (clearance_class pad)
+    (via_rule pad)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer Dolna)
+    )
+  )
+)
