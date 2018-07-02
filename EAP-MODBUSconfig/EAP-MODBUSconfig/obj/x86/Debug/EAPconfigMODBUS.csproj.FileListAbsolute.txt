@@ -1,0 +1,11 @@
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfig.Form1.resources
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfigMODBUS.csproj.GenerateResource.Cache
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\bin\Debug\EAPconfigMODBUS.exe.manifest
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\bin\Debug\EAPconfigMODBUS.application
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\bin\Debug\EAPconfigMODBUS.exe
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\bin\Debug\EAPconfigMODBUS.pdb
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfigMODBUS.exe.manifest
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfigMODBUS.application
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfigMODBUS.exe
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfigMODBUS.pdb
+D:\Moje\AVR\Protokol\Konfigurator_VS_1\EAPconfigMODBUS\EAPconfig\obj\x86\Debug\EAPconfig.Properties.Resources.resources

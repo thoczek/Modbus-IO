@@ -1,0 +1,12 @@
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\bin\Release\EAP-MODBUSconfig.exe.manifest
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\bin\Release\EAP-MODBUSconfig.application
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\bin\Release\EAP-MODBUSconfig.exe
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\bin\Release\EAP-MODBUSconfig.pdb
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAPconfig.Form1.resources
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP_MODBUSconfig.Properties.Resources.resources
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.csproj.GenerateResource.Cache
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.exe.manifest
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.application
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.exe
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.pdb
+D:\Moje\01-AVR\03-Protokol\01-Oprogramowanie\EAP-MODBUSconfig\EAP-MODBUSconfig\obj\x86\Release\EAP-MODBUSconfig.csprojResolveAssemblyReference.cache
