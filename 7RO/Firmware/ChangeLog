@@ -1,0 +1,7 @@
+2016-01-10  Ted  <Ted@Ted_comp>
+
+	* main.c: 
+		V3
+		- Wprowadzenie TCP mode
+		- Aktualizacja komendy #_ECHO
+		- Aktualizacja komendy @CONFD
