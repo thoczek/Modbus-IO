@@ -1,0 +1,71 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2014-10-28 22:21:27
+
+#Cmp ( sort. wg = Wartość )
+| 30pF         C1        
+| 30pF         C2        
+| 100nF        C3        
+| 100nF        C7        
+| 100nF        C8        
+| 100nF        C9        
+| 100nF        C10       
+| 100nF        C11       
+| 100nF        C12       
+| 100nF        C13       
+| 100nF        C14       
+| 100nF        C15       
+| 4,7uF        C5        
+| 4,7uF        C16       
+| 47uF         C4        
+| 47uF         C6        
+| DIODE        D1        
+| Tr 5.8V      D2        
+| LED          D3        
+| Tr 5.8V      D4        
+| Tr 5.8V      D5        
+| Tr 5.8V      D6        
+| Tr 5.8V      D7        
+| Tr 5.8V      D8        
+| Tr 5.8V      D9        
+| DIODE        D10       
+| DIODE        D11       
+| DIODE        D12       
+| DIODE        D13       
+| ATMEGA8-P    IC1       
+| ADM485       IC2       
+| RELAY        K1        
+| RELAY        K2        
+| RELAY        K3        
+| RELAY        K4        
+| 3 PIN        P1        
+| 5 PIN        P2        
+| 3 PIN        P3        
+| 3 PIN        P4        
+| 3 PIN        P5        
+| 3 PIN        P6        
+| 3 PIN        P7        
+| BC337        Q1        
+| BC337        Q2        
+| BC337        Q3        
+| BC337        Q4        
+| 10R          R15       
+| 10R          R16       
+| 450          R7        
+| 450          R8        
+| 450          R9        
+| 450          R10       
+| 3k           R2        
+| 3k           R11       
+| 3k           R12       
+| 3k           R13       
+| 3k           R14       
+| 4.7k         R1        
+| 10k          R3        
+| 10k          R4        
+| 10k          R5        
+| 10k          R6        
+| 7805         U1        
+| LTV847       U2        
+| 3.6864 MHz   X1        
+#Koniec Cmp
+
+#Koniec listy
